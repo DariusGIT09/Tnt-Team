@@ -5,7 +5,7 @@
 
     <div class="bg-[#111111] min-h-screen pt-24 pb-12">
         <!-- Header -->
-        <div class="text-center py-16 px-4">
+        <div class="text-center py-16 px-4" data-aos="fade-down">
             <h1 class="text-5xl md:text-7xl font-heading font-bold text-white uppercase tracking-tighter mb-4">
                 Real People. <span class="text-brand-gold">Real Results.</span>
             </h1>
@@ -21,7 +21,8 @@
                 <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 auto-rows-[200px] gap-1 grid-flow-dense">
                     @foreach($images as $image)
                         <div class="relative group cursor-pointer overflow-hidden bg-brand-dark {{ $loop->iteration % 9 == 1 || $loop->iteration % 13 == 5 ? 'col-span-2 row-span-2' : '' }}"
-                            @click="modalOpen = true; activeImage = '{{ $image }}'">
+                            @click="modalOpen = true; activeImage = '{{ $image }}'" data-aos="zoom-in"
+                            data-aos-delay="{{ $loop->iteration * 50 }}">
 
                             <!-- Image -->
                             <img src="{{ $image }}" aria-hidden="true"

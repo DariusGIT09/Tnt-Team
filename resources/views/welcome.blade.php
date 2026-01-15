@@ -16,7 +16,8 @@
         <!-- Hero Content -->
         <div class="relative z-10 text-center px-4 max-w-5xl mx-auto mt-16">
             <h1
-                class="text-6xl md:text-8xl font-heading font-bold text-white uppercase leading-none tracking-tighter mb-6 drop-shadow-lg">
+                class="text-6xl md:text-8xl font-heading font-bold text-white uppercase leading-none tracking-tighter mb-6 drop-shadow-lg"
+                data-aos="fade-down">
                 Push <span class="text-brand-gold">Limits.</span><br>
                 Achieve <span class="text-white border-b-4 border-brand-gold">Greatness.</span>
             </h1>
@@ -25,7 +26,7 @@
                     Tomoroga</span>.
                 Forge your legacy.
             </p>
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up" data-aos-delay="200">
                 <a href="{{ route('contact') }}"
                     class="bg-brand-gold hover:bg-brand-gold-hover text-black font-heading font-bold text-xl py-4 px-10 rounded-full transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(250,204,21,0.4)]">
                     START YOUR JOURNEY
@@ -77,15 +78,15 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div
                 class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-white/10">
-                <div class="p-4">
+                <div class="p-4" data-aos="fade-up" data-aos-delay="0">
                     <p class="text-5xl font-heading font-bold text-brand-gold mb-2">7+</p>
                     <p class="text-gray-400 uppercase tracking-widest text-sm">Years Experience</p>
                 </div>
-                <div class="p-4">
+                <div class="p-4" data-aos="fade-up" data-aos-delay="100">
                     <p class="text-5xl font-heading font-bold text-brand-gold mb-2">250+</p>
                     <p class="text-gray-400 uppercase tracking-widest text-sm">Lives Transformed</p>
                 </div>
-                <div class="p-4">
+                <div class="p-4" data-aos="fade-up" data-aos-delay="200">
                     <p class="text-5xl font-heading font-bold text-brand-gold mb-2">100%</p>
                     <p class="text-gray-400 uppercase tracking-widest text-sm">Customized Plans</p>
                 </div>
@@ -124,7 +125,7 @@
             <div class="flex flex-col md:flex-row items-center gap-16">
 
                 <!-- Text Content -->
-                <div class="w-full md:w-1/2">
+                <div class="w-full md:w-1/2" data-aos="fade-right">
                     <h2 class="text-4xl md:text-5xl font-heading font-bold text-white uppercase italic leading-tight mb-6">
                         When we embrace <span class="text-brand-gold">fitness</span>, we build a brighter <span
                             class="text-white">future.</span>
@@ -151,7 +152,7 @@
                 </div>
 
                 <!-- Image with slanted background effect -->
-                <div class="w-full md:w-1/2 relative">
+                <div class="w-full md:w-1/2 relative" data-aos="fade-left">
                     <!-- Slanted Backdrops -->
                     <div
                         class="absolute top-0 right-0 -mr-10 -mt-10 w-full h-full bg-brand-gray/50 transform skew-x-12 rounded-3xl z-0">
@@ -181,7 +182,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="flex flex-col lg:flex-row gap-16">
                 <!-- Left Column: Text & Stats -->
-                <div class="w-full lg:w-5/12 flex flex-col justify-center">
+                <div class="w-full lg:w-5/12 flex flex-col justify-center" data-aos="fade-right">
                     <!-- Big Arrow Background Effect (CSS only for shape) -->
                     <div class="relative">
                         <div class="absolute -left-20 -top-20 w-80 h-full opacity-5 pointer-events-none">
@@ -199,23 +200,21 @@
                         </p>
                     </div>
 
-                    <div class="space-y-10">
+                    <div class="flex flex-row gap-12">
                         <!-- Stat 1 -->
                         <div>
                             <div class="flex items-start">
                                 <span class="text-4xl font-heading font-bold text-white">24/7</span>
-                                <!--<span class="text-brand-gold text-2xl font-bold ml-1">Support</span>-->
                             </div>
-                            <p class="text-gray-400 mt-1">Support</p>
+                            <p class="text-gray-400 mt-1 uppercase tracking-wider text-sm">Support</p>
                         </div>
 
                         <!-- Stat 2 -->
                         <div>
                             <div class="flex items-start">
-                                <span class="text-4xl font-heading font-bold text-white">52</span>
-                                <span class="text-brand-gold text-2xl font-bold ml-1">+</span>
+                                <span class="text-4xl font-heading font-bold text-white">1-on-1</span>
                             </div>
-                            <p class="text-gray-400 mt-1">Fitness Trainer</p>
+                            <p class="text-gray-400 mt-1 uppercase tracking-wider text-sm">Direct Access</p>
                         </div>
                     </div>
                 </div>
@@ -225,8 +224,8 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                         <!-- Card 1: Personal Training -->
-                        <div
-                            class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-glow">
+                        <div class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-glow"
+                             data-aos="fade-up" data-aos-delay="0">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
                                 <img src="{{ asset('images/ICONS/dumbelICON.png') }}" class="w-9 h-9 object-contain" alt="Personal Training">
@@ -239,8 +238,8 @@
                         </div>
 
                         <!-- Card 2: Posing & Presentation -->
-                        <div
-                            class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 mt-0 md:mt-12 shadow-md hover:shadow-glow">
+                        <div class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 mt-0 md:mt-12 shadow-md hover:shadow-glow"
+                             data-aos="fade-up" data-aos-delay="100">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
                                 <img src="{{ asset('images/ICONS/PosingICON.png') }}" class="w-9 h-9 object-contain" alt="Posing">
@@ -253,8 +252,8 @@
                         </div>
 
                         <!-- Card 3: Strength Training -->
-                        <div
-                            class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-glow">
+                        <div class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-glow"
+                             data-aos="fade-up" data-aos-delay="200">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
                                 <img src="{{ asset('images/ICONS/Biceps icon.png') }}" class="w-9 h-9 object-contain" alt="Strength Training">
@@ -266,8 +265,8 @@
                         </div>
 
                         <!-- Card 4: Nutrition Guidance -->
-                        <div
-                            class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 mt-0 md:mt-12 shadow-md hover:shadow-glow">
+                        <div class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 mt-0 md:mt-12 shadow-md hover:shadow-glow"
+                             data-aos="fade-up" data-aos-delay="300">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
                                 <img src="{{ asset('images/ICONS/NutritionICON.png') }}" class="w-9 h-9 object-contain" alt="Nutrition">
@@ -297,7 +296,8 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Card 1 -->
                 <div
-                    class="group relative bg-brand-gray p-8 rounded-2xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-2 overflow-hidden shadow-lg hover:shadow-glow">
+                    class="group relative bg-brand-gray p-8 rounded-2xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-2 overflow-hidden shadow-lg hover:shadow-glow"
+                    data-aos="zoom-in" data-aos-delay="0">
                     <div
                         class="absolute top-0 right-0 w-24 h-24 bg-brand-gold/10 rounded-bl-full -mr-4 -mt-4 transition-all group-hover:bg-brand-gold/20">
                     </div>
@@ -315,7 +315,7 @@
                             Full comprehensive plans tailored to your lifestyle. Training, nutrition, and weekly check-ins
                             to ensure rapid progress.
                         </p>
-                        <a href="#"
+                        <a href="{{ route('protocol') }}"
                             class="inline-flex items-center text-brand-gold font-bold uppercase tracking-wide group-hover:translate-x-2 transition-transform">
                             Learn More <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -327,7 +327,8 @@
 
                 <!-- Card 2 -->
                 <div
-                    class="group relative bg-brand-gray p-8 rounded-2xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-2 overflow-hidden shadow-lg hover:shadow-glow">
+                    class="group relative bg-brand-gray p-8 rounded-2xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-2 overflow-hidden shadow-lg hover:shadow-glow"
+                    data-aos="zoom-in" data-aos-delay="100">
                     <div
                         class="absolute top-0 right-0 w-24 h-24 bg-brand-gold/10 rounded-bl-full -mr-4 -mt-4 transition-all group-hover:bg-brand-gold/20">
                     </div>
@@ -345,7 +346,7 @@
                             Stop guessing. Get a calculated macronutrient strategy designed to fuel your workouts and burn
                             fat efficiently.
                         </p>
-                        <a href="#"
+                        <a href="{{ route('protocol') }}"
                             class="inline-flex items-center text-brand-gold font-bold uppercase tracking-wide group-hover:translate-x-2 transition-transform">
                             Learn More <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -357,7 +358,8 @@
 
                 <!-- Card 3 -->
                 <div
-                    class="group relative bg-brand-gray p-8 rounded-2xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-2 overflow-hidden shadow-lg hover:shadow-glow">
+                    class="group relative bg-brand-gray p-8 rounded-2xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-2 overflow-hidden shadow-lg hover:shadow-glow"
+                    data-aos="zoom-in" data-aos-delay="200">
                     <div
                         class="absolute top-0 right-0 w-24 h-24 bg-brand-gold/10 rounded-bl-full -mr-4 -mt-4 transition-all group-hover:bg-brand-gold/20">
                     </div>
@@ -375,7 +377,7 @@
                             Precision peaking for bodybuilders. We handle every variable so you step on stage with your best
                             package ever.
                         </p>
-                        <a href="#"
+                        <a href="{{ route('protocol') }}"
                             class="inline-flex items-center text-brand-gold font-bold uppercase tracking-wide group-hover:translate-x-2 transition-transform">
                             Learn More <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -388,12 +390,60 @@
         </div>
     </section>
 
+    <!-- Genius Nutrition Partner Section -->
+    <section class="py-20 bg-[#0a0a0a] relative overflow-hidden border-y border-white/5" data-aos="fade-up">
+        <div class="absolute inset-0 bg-[url('/images/ICONS/GeniusLogo.avif')] opacity-5 bg-center bg-no-repeat bg-contain blur-sm"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 bg-gradient-to-r from-brand-gray/50 to-transparent p-6 md:p-10 rounded-3xl border border-white/5 backdrop-blur-sm">
+                
+                <!-- Logo & Title -->
+                <div class="flex flex-col sm:flex-row items-center gap-6 md:gap-8 flex-shrink-0 text-center sm:text-left">
+                   <div class="w-32 h-32 md:w-40 md:h-40 bg-black/50 rounded-full flex items-center justify-center border-2 border-brand-gold/20 shadow-glow p-6 flex-shrink-0">
+                       <img src="{{ asset('images/ICONS/GeniusLogo.avif') }}" alt="Genius Nutrition" class="w-full h-full object-contain">
+                   </div>
+                   <div>
+                       <h3 class="text-brand-gold font-bold text-sm tracking-[0.2em] uppercase mb-2">Official Fuel Partner</h3>
+                       <h2 class="text-4xl md:text-5xl font-heading font-bold text-white italic uppercase leading-none">
+                           Genius <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-gold to-yellow-500">Nutrition</span>
+                       </h2>
+                   </div>
+                </div>
+
+                <!-- Dismiss/Action -->
+                <div class="text-center lg:text-right w-full lg:w-auto max-w-2xl">
+                    <p class="text-gray-400 text-lg mb-6 lg:ml-auto">
+                        Fuel your ambition with premium supplements. Use my exclusive code for a discount on your order.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-end w-full" x-data="{ copied: false }">
+                         <div class="group relative bg-black/80 border border-brand-gold rounded-xl px-6 py-4 flex items-center gap-4 cursor-pointer hover:bg-brand-gold/10 transition-all w-full sm:w-auto justify-between sm:justify-start"
+                              @click="navigator.clipboard.writeText('TIBERIU12'); copied = true; setTimeout(() => copied = false, 2000)">
+                             <div class="text-left flex-shrink-0">
+                                 <span class="block text-xs text-gray-500 uppercase tracking-wider">Discount Code</span>
+                                 <span class="block text-2xl font-mono font-bold text-brand-gold tracking-widest whitespace-nowrap">TIBERIU12</span>
+                             </div>
+                             <div class="h-10 w-px bg-white/10 mx-2 hidden sm:block"></div>
+                             <div class="text-brand-gold flex-shrink-0">
+                                <span x-show="!copied" class="font-bold text-base sm:text-xl whitespace-nowrap">12% OFF</span>
+                                <span x-show="copied" class="text-sm font-bold text-green-500 whitespace-nowrap" x-transition>COPIED!</span>
+                             </div>
+                         </div>
+                         
+                         <a href="https://geniusnutrition.ro" target="_blank" class="bg-white text-black font-bold py-4 px-8 rounded-xl hover:bg-gray-200 transition-colors uppercase tracking-wide w-full sm:w-auto whitespace-nowrap">
+                             Shop Now
+                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Meet The Coach -->
     <section class="py-24 bg-black relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-16">
                 <!-- Image Side -->
-                <div class="w-full lg:w-1/2 relative">
+                <div class="w-full lg:w-1/2 relative" data-aos="fade-right">
                     <div class="absolute -inset-4 bg-brand-gold/10 rounded-2xl transform -rotate-3 z-0"></div>
                     <div class="absolute -inset-4 bg-brand-gray/50 rounded-2xl transform rotate-3 z-0"></div>
                     <img src="/images/Gym/optimized/Dumbbell.jpeg" alt="Coach Tiberiu"
@@ -401,7 +451,7 @@
                 </div>
 
                 <!-- Text Side -->
-                <div class="w-full lg:w-1/2">
+                <div class="w-full lg:w-1/2" data-aos="fade-left">
                     <h2 class="text-brand-gold font-heading font-bold text-lg tracking-[0.2em] mb-2 uppercase">Head Coach
                     </h2>
                     <h3

@@ -6,7 +6,7 @@
     <div class="min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div class="max-w-7xl mx-auto">
             <!-- Header -->
-            <div class="text-center mb-16">
+            <div class="text-center mb-16" data-aos="fade-down">
                 <h1 class="text-5xl md:text-7xl font-heading font-bold text-white uppercase tracking-tighter mb-4">
                     Get In <span class="text-brand-gold">Touch</span>
                 </h1>
@@ -17,7 +17,7 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
                 <!-- Left Column: Contact Info -->
-                <div class="space-y-12">
+                <div class="space-y-12" data-aos="fade-right">
                     <div>
                         <h2 class="text-3xl font-heading font-bold text-white uppercase tracking-wide mb-6">Contact Info
                         </h2>
@@ -88,10 +88,20 @@
                             </a>
                         </div>
                     </div>
+
+                    <!-- Interactive Map -->
+                    <div class="mt-8 rounded-2xl overflow-hidden border border-white/10 h-64 relative group">
+                        <div class="absolute inset-0 pointer-events-none z-10 mix-blend-overlay bg-brand-gold/10"></div>
+                        <div class="absolute inset-0 pointer-events-none z-10 bg-black/30"></div>
+                        <iframe
+                            src="https://maps.google.com/maps?q=Revo+Fitness+Manastur+Cluj&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            class="w-full h-full grayscale-[100%] invert-[90%] contrast-[85%] hover:grayscale-0 hover:invert-0 hover:contrast-100 transition-all duration-500"
+                            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
 
                 <!-- Right Column: Contact Form -->
-                <div class="bg-brand-gray p-8 md:p-10 rounded-2xl border border-white/5 shadow-2xl">
+                <div class="bg-brand-gray p-8 md:p-10 rounded-2xl border border-white/5 shadow-2xl" data-aos="fade-left">
                     @if(session('success'))
                         <div class="bg-green-500/10 border border-green-500 text-green-500 px-4 py-3 rounded relative mb-6"
                             role="alert">
