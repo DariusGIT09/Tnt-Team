@@ -26,11 +26,11 @@
                 Forge your legacy.
             </p>
             <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-                <a href="#"
+                <a href="{{ route('contact') }}"
                     class="bg-brand-gold hover:bg-brand-gold-hover text-black font-heading font-bold text-xl py-4 px-10 rounded-full transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(250,204,21,0.4)]">
                     START YOUR JOURNEY
                 </a>
-                <a href="#"
+                <a href="{{ route('transformations') }}"
                     class="border border-white/30 hover:border-brand-gold text-white hover:text-brand-gold font-heading font-bold text-xl py-4 px-10 rounded-full transition-all">
                     VIEW TRANSFORMATIONS
                 </a>
@@ -78,11 +78,11 @@
             <div
                 class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-white/10">
                 <div class="p-4">
-                    <p class="text-5xl font-heading font-bold text-brand-gold mb-2">10+</p>
+                    <p class="text-5xl font-heading font-bold text-brand-gold mb-2">7+</p>
                     <p class="text-gray-400 uppercase tracking-widest text-sm">Years Experience</p>
                 </div>
                 <div class="p-4">
-                    <p class="text-5xl font-heading font-bold text-brand-gold mb-2">500+</p>
+                    <p class="text-5xl font-heading font-bold text-brand-gold mb-2">250+</p>
                     <p class="text-gray-400 uppercase tracking-widest text-sm">Lives Transformed</p>
                 </div>
                 <div class="p-4">
@@ -203,10 +203,10 @@
                         <!-- Stat 1 -->
                         <div>
                             <div class="flex items-start">
-                                <span class="text-4xl font-heading font-bold text-white">200</span>
-                                <span class="text-brand-gold text-2xl font-bold ml-1">+</span>
+                                <span class="text-4xl font-heading font-bold text-white">24/7</span>
+                                <!--<span class="text-brand-gold text-2xl font-bold ml-1">Support</span>-->
                             </div>
-                            <p class="text-gray-400 mt-1">Fitness Equipment</p>
+                            <p class="text-gray-400 mt-1">Support</p>
                         </div>
 
                         <!-- Stat 2 -->
@@ -229,11 +229,7 @@
                             class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-glow">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-                                <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3">
-                                    </path>
-                                </svg>
+                                <img src="{{ asset('images/ICONS/dumbelICON.png') }}" class="w-9 h-9 object-contain" alt="Personal Training">
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Personal Training</h3>
                             <p class="text-gray-400 text-sm leading-relaxed">
@@ -242,21 +238,17 @@
                             </p>
                         </div>
 
-                        <!-- Card 2: Group Classes -->
+                        <!-- Card 2: Posing & Presentation -->
                         <div
                             class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 mt-0 md:mt-12 shadow-md hover:shadow-glow">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-                                <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
-                                    </path>
-                                </svg>
+                                <img src="{{ asset('images/ICONS/PosingICON.png') }}" class="w-9 h-9 object-contain" alt="Posing">
                             </div>
-                            <h3 class="text-2xl font-heading font-bold text-white mb-4">Group Classes</h3>
+                            <h3 class="text-2xl font-heading font-bold text-white mb-4">Posing & Presentation</h3>
                             <p class="text-gray-400 text-sm leading-relaxed">
-                                Engage in high-energy, motivating classes like yoga, spin, Zumba, and more, tailored to
-                                boost.
+                                Master the art of presentation. We refine your posing routine to ensure you showcase your
+                                physique perfectly on stage.
                             </p>
                         </div>
 
@@ -265,10 +257,7 @@
                             class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-glow">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-                                <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                                </svg>
+                                <img src="{{ asset('images/ICONS/Biceps icon.png') }}" class="w-9 h-9 object-contain" alt="Strength Training">
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Strength Training</h3>
                             <p class="text-gray-400 text-sm leading-relaxed">
@@ -281,11 +270,7 @@
                             class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 mt-0 md:mt-12 shadow-md hover:shadow-glow">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-                                <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4">
-                                    </path>
-                                </svg>
+                                <img src="{{ asset('images/ICONS/NutritionICON.png') }}" class="w-9 h-9 object-contain" alt="Nutrition">
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Nutrition Guidance</h3>
                             <p class="text-gray-400 text-sm leading-relaxed">

@@ -1,11 +1,13 @@
-<nav x-data="{ open: false }"
-    class="absolute top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
+<nav x-data="{ open: false, scrolled: false }" @scroll.window="scrolled = (window.pageYOffset > 20)"
+    :class="{ 'bg-black/90 backdrop-blur-xl border-brand-gold/20 shadow-glow': scrolled, 'bg-transparent border-transparent': !scrolled }"
+    class="fixed top-0 left-0 w-full z-50 border-b transition-all duration-300 ease-in-out">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-20">
             <!-- Logo -->
             <div class="flex-shrink-0">
                 <a href="{{ route('home') }}"
-                    class="text-3xl font-heading font-bold italic tracking-tighter text-white">
+                    class="text-3xl font-heading font-bold italic tracking-tighter text-white transform transition-transform duration-300"
+                    :class="{ 'scale-90': scrolled }">
                     TNT <span class="text-brand-gold">TEAM</span>
                 </a>
             </div>
@@ -24,9 +26,8 @@
                 <a href="{{ route('david') }}"
                     class="text-white hover:text-brand-gold transition-colors font-medium uppercase tracking-wide text-sm {{ request()->routeIs('david') ? 'text-brand-gold border-b-2 border-brand-gold' : '' }}">Stories</a>
                 <a href="{{ route('contact') }}"
-                    class="text-white hover:text-brand-gold transition-colors font-medium uppercase tracking-wide text-sm {{ request()->routeIs('contact') ? 'text-brand-gold border-b-2 border-brand-gold' : '' }}">Contact</a>
-                <a href="{{ route('contact') }}"
-                    class="bg-brand-gold hover:bg-brand-gold-hover text-black font-bold py-2 px-6 rounded-full transition-all transform hover:scale-105 shadow-glow">
+                    class="bg-brand-gold hover:bg-brand-gold-hover text-black font-bold py-2 px-6 rounded-full transition-all transform hover:scale-105 shadow-glow"
+                    :class="{ 'py-1 px-5': scrolled }">
                     START NOW
                 </a>
             </div>
@@ -46,19 +47,26 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div x-show="open" class="md:hidden bg-brand-dark/95 backdrop-blur-md border-b border-brand-charcoal">
+    <div x-show="open" x-transition:enter="transition ease-out duration-200"
+        x-transition:enter-start="opacity-0 -translate-y-2" x-transition:enter-end="opacity-100 translate-y-0"
+        x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0"
+        x-transition:leave-end="opacity-0 -translate-y-2"
+        class="md:hidden bg-brand-dark/95 backdrop-blur-md border-b border-brand-charcoal absolute w-full left-0 shadow-xl">
         <div class="px-4 pt-2 pb-6 space-y-4">
-            <a href="{{ route('home') }}" class="block text-white hover:text-brand-gold font-bold text-lg">HOME</a>
-            <a href="{{ route('about') }}" class="block text-white hover:text-brand-gold font-bold text-lg">ABOUT</a>
+            <a href="{{ route('home') }}"
+                class="block text-white hover:text-brand-gold font-bold text-lg border-l-2 border-transparent hover:border-brand-gold pl-2 transition-all">HOME</a>
+            <a href="{{ route('about') }}"
+                class="block text-white hover:text-brand-gold font-bold text-lg border-l-2 border-transparent hover:border-brand-gold pl-2 transition-all">ABOUT</a>
             <a href="{{ route('transformations') }}"
-                class="block text-white hover:text-brand-gold font-bold text-lg">REAL RESULTS</a>
+                class="block text-white hover:text-brand-gold font-bold text-lg border-l-2 border-transparent hover:border-brand-gold pl-2 transition-all">REAL
+                RESULTS</a>
             <a href="{{ route('protocol') }}"
-                class="block text-white hover:text-brand-gold font-bold text-lg">TRAINING</a>
-            <a href="{{ route('david') }}" class="block text-white hover:text-brand-gold font-bold text-lg">STORIES</a>
+                class="block text-white hover:text-brand-gold font-bold text-lg border-l-2 border-transparent hover:border-brand-gold pl-2 transition-all">TRAINING</a>
+            <a href="{{ route('david') }}"
+                class="block text-white hover:text-brand-gold font-bold text-lg border-l-2 border-transparent hover:border-brand-gold pl-2 transition-all">STORIES</a>
             <a href="{{ route('contact') }}"
-                class="block text-white hover:text-brand-gold font-bold text-lg">CONTACT</a>
-            <a href="{{ route('contact') }}"
-                class="block w-full text-center bg-brand-gold text-black font-bold py-3 rounded-xl mt-4">START NOW</a>
+                class="block w-full text-center bg-brand-gold hover:bg-brand-gold-hover text-black font-bold py-3 rounded-xl mt-4 shadow-lg transition-all">START
+                NOW</a>
         </div>
     </div>
 </nav>

@@ -33,7 +33,7 @@
                                 <div>
                                     <p class="text-gray-400 text-sm uppercase tracking-wider">Email</p>
                                     <a href="mailto:contact@tnt-team.com"
-                                        class="text-xl text-white font-bold hover:text-brand-gold transition-colors">contact@tnt-team.com</a>
+                                        class="text-xl text-white font-bold hover:text-brand-gold transition-colors">tiberiu.tomoroga@yahoo.com</a>
                                 </div>
                             </div>
                             <div class="flex items-start space-x-4">
@@ -47,8 +47,8 @@
                                 <div>
                                     <p class="text-gray-400 text-sm uppercase tracking-wider">Phone</p>
                                     <a href="tel:+40700000000"
-                                        class="text-xl text-white font-bold hover:text-brand-gold transition-colors">+40 700
-                                        000 000</a>
+                                        class="text-xl text-white font-bold hover:text-brand-gold transition-colors">+40 740
+                                        790 936</a>
                                 </div>
                             </div>
                             <div class="flex items-start space-x-4">
@@ -79,7 +79,7 @@
                                         d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
                                 </svg>
                             </a>
-                            <a href="#"
+                            <a href="https://www.instagram.com/tomorogatiberiu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                                 class="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white hover:bg-brand-gold hover:text-black hover:border-brand-gold transition-all duration-300">
                                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                     <path
@@ -107,7 +107,7 @@
                                 Name</label>
                             <input type="text" id="name" name="name" required
                                 class="w-full bg-gray-800 border-0 text-white p-4 rounded-lg focus:ring-2 focus:ring-brand-gold transition-all placeholder-gray-600"
-                                placeholder="John Doe">
+                                placeholder="Your Name">
                         </div>
                         <div>
                             <label for="email"
@@ -115,7 +115,7 @@
                                 Address</label>
                             <input type="email" id="email" name="email" required
                                 class="w-full bg-gray-800 border-0 text-white p-4 rounded-lg focus:ring-2 focus:ring-brand-gold transition-all placeholder-gray-600"
-                                placeholder="john@example.com">
+                                placeholder="youradress@email.com">
                         </div>
                         <div>
                             <label for="goal"
