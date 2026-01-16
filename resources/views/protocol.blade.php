@@ -67,7 +67,7 @@
             </div>
 
             <!-- Pricing / Packages -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
 
                 <!-- Group 12 -->
                 <div class="bg-brand-gray/50 border border-white/5 rounded-2xl p-6 hover:border-brand-gold/30 transition-all h-full flex flex-col hover:-translate-y-2 duration-300"
@@ -215,6 +215,81 @@
                     <a href="{{ route('contact') }}"
                         class="block w-full text-center bg-brand-gold hover:bg-brand-gold-hover text-black font-bold py-4 rounded-lg transition-all uppercase tracking-wider shadow-glow">Apply
                         Now</a>
+                </div>
+
+                <!-- Training Plan (New) -->
+                <div class="bg-brand-gray/50 border border-white/5 rounded-2xl p-6 hover:border-brand-gold/30 transition-all h-full flex flex-col hover:-translate-y-2 duration-300"
+                    data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="text-xl font-heading font-bold text-gray-300 uppercase mb-2">Training Plan</h3>
+                    <div class="text-sm text-brand-gold uppercase tracking-wider mb-4 font-bold">Individual Variant</div>
+                    <div class="text-4xl font-bold text-white mb-6">250 <span
+                            class="text-lg text-gray-500 font-normal">LEI</span></div>
+
+                    <ul class="space-y-3 mb-8 text-gray-400 text-sm flex-grow">
+                        <li class="flex items-start"><svg class="w-5 h-5 text-brand-gold mr-2 flex-shrink-0" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                                </path>
+                            </svg> Custom Individual Plan</li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-brand-gold mr-2 flex-shrink-0" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                                </path>
+                            </svg> Tailored to Goals</li>
+                    </ul>
+                    <a href="{{ route('contact') }}"
+                        class="block w-full text-center bg-white/10 hover:bg-white/20 text-white font-bold py-3 rounded-lg transition-all uppercase tracking-wider">Select
+                        Plan</a>
+                </div>
+
+                <!-- Nutrition Plan (New) -->
+                <div class="bg-brand-gray/50 border border-white/5 rounded-2xl p-6 hover:border-brand-gold/30 transition-all h-full flex flex-col hover:-translate-y-2 duration-300"
+                    data-aos="fade-up" data-aos-delay="500">
+                    <h3 class="text-xl font-heading font-bold text-gray-300 uppercase mb-2">Nutrition Plan</h3>
+                    <div class="text-sm text-brand-gold uppercase tracking-wider mb-4 font-bold">Individual Variant</div>
+                    <div class="text-4xl font-bold text-white mb-6">250 <span
+                            class="text-lg text-gray-500 font-normal">LEI</span></div>
+
+                    <ul class="space-y-3 mb-8 text-gray-400 text-sm flex-grow">
+                        <li class="flex items-start"><svg class="w-5 h-5 text-brand-gold mr-2 flex-shrink-0" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                                </path>
+                            </svg> Custom Macros & Meal Plan</li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-brand-gold mr-2 flex-shrink-0" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                                </path>
+                            </svg> Tailored for Metabolism</li>
+                    </ul>
+                    <a href="{{ route('contact') }}"
+                        class="block w-full text-center bg-white/10 hover:bg-white/20 text-white font-bold py-3 rounded-lg transition-all uppercase tracking-wider">Select
+                        Plan</a>
+                </div>
+
+                <!-- Posing Session (New) -->
+                <div class="bg-brand-gray/50 border border-white/5 rounded-2xl p-6 hover:border-brand-gold/30 transition-all h-full flex flex-col hover:-translate-y-2 duration-300"
+                    data-aos="fade-up" data-aos-delay="600">
+                    <h3 class="text-xl font-heading font-bold text-gray-300 uppercase mb-2">Posing Session</h3>
+                    <div class="text-sm text-brand-gold uppercase tracking-wider mb-4 font-bold">Stage Coaching</div>
+                    <div class="text-4xl font-bold text-white mb-6">150 <span
+                            class="text-lg text-gray-500 font-normal">LEI</span></div>
+
+                    <ul class="space-y-3 mb-8 text-gray-400 text-sm flex-grow">
+                        <li class="flex items-start"><svg class="w-5 h-5 text-brand-gold mr-2 flex-shrink-0" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                                </path>
+                            </svg> Compulsory Poses</li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-brand-gold mr-2 flex-shrink-0" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                                </path>
+                            </svg> Classic Physique / Bodybuilding / Men's Physique</li>
+                    </ul>
+                    <a href="{{ route('contact') }}"
+                        class="block w-full text-center bg-white/10 hover:bg-white/20 text-white font-bold py-3 rounded-lg transition-all uppercase tracking-wider">Select
+                        Plan</a>
                 </div>
 
             </div>

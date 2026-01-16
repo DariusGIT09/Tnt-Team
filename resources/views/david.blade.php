@@ -38,13 +38,14 @@
                 </div>
                 <div class="h-1 w-20 bg-brand-gold"></div>
                 <p class="text-gray-400 text-lg leading-relaxed">
-                    When David first came to us, he had hit a plateau. He was training hard but eating without purpose. His
-                    goal was simple but ambitious: he wanted to step on stage. We started with a complete metabolic reset
-                    and a hypertrophy block designed to bring up his lagging parts.
+                    Our collaboration began over 4 years ago, when David was just 16 years old, standing 1.74 m tall and
+                    weighing close to 110 kg. He came to me with a simple but deeply important goal: to lose weight and
+                    reach a normal, healthy bodyweight, so he could feel good in his own skin and live a normal life for his
+                    age.
                 </p>
                 <div class="grid grid-cols-2 gap-8 pt-4">
                     <div>
-                        <span class="block text-3xl font-bold text-white">85kg</span>
+                        <span class="block text-3xl font-bold text-white">110kg</span>
                         <span class="text-sm text-gray-500 uppercase tracking-wider">Starting Weight</span>
                     </div>
                     <div>
@@ -82,17 +83,19 @@
                 </div>
                 <div class="h-1 w-20 bg-brand-gold"></div>
                 <p class="text-gray-400 text-lg leading-relaxed">
-                    16 weeks of pure focus. We implemented strict carb cycling and high-intensity hypertrophy training.
-                    David didn't miss a meal. He didn't miss a rep. This phase wasn't just about physical change, it was
-                    about forging the mindset of a champion.
+                    In the beginning, we worked through in-person personal training at the gym. What stood out immediately
+                    was David's exceptional seriousness and commitment.
+                    He followed the nutrition plan without deviations, completed every workout exactly as prescribed, and
+                    pushed every session to maximum intensity.
+                    The first major milestone was achieved: dropping down to 70 kg — a massive transformation.
                 </p>
                 <ul class="space-y-3 text-gray-300">
-                    <li class="flex items-center"><span class="w-2 h-2 bg-brand-gold rounded-full mr-3"></span> 5AM Cardio
-                        Sessions</li>
-                    <li class="flex items-center"><span class="w-2 h-2 bg-brand-gold rounded-full mr-3"></span> Precision
-                        Macro Tracking</li>
-                    <li class="flex items-center"><span class="w-2 h-2 bg-brand-gold rounded-full mr-3"></span> Weekly Form
-                        Analysis</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-brand-gold rounded-full mr-3"></span> Dropped to
+                        70kg</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-brand-gold rounded-full mr-3"></span> Unwavering
+                        Discipline</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-brand-gold rounded-full mr-3"></span> Complete
+                        Mindset Shift</li>
                 </ul>
             </div>
         </div>
@@ -105,8 +108,10 @@
                     The Result</div>
                 <h2 class="text-5xl font-heading font-bold text-white uppercase">The Stage</h2>
                 <p class="text-gray-400 text-lg">
-                    Nationals 2025. David stepped on stage at his all-time best condition. A transformation that speaks for
-                    itself.
+                    In 2025, David competed in his first bodybuilding competition — the National Championships, where he
+                    presented an outstanding physique for a first-time competitor.
+                    David is already preparing for future competitions in 2026, continuing to build, improve, and raise his
+                    standards.
                 </p>
             </div>
 

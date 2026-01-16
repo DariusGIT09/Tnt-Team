@@ -127,19 +127,19 @@
                 <!-- Text Content -->
                 <div class="w-full md:w-1/2" data-aos="fade-right">
                     <h2 class="text-4xl md:text-5xl font-heading font-bold text-white uppercase italic leading-tight mb-6">
-                        When we embrace <span class="text-brand-gold">fitness</span>, we build a brighter <span
-                            class="text-white">future.</span>
+                        No Shortcuts. <span class="text-brand-gold">Just The Truth.</span>
                     </h2>
 
                     <div class="space-y-6 text-gray-400 text-lg leading-relaxed">
                         <p>
-                            They inspire camaraderie, teamwork, and a shared sense of purpose, creating communities where
-                            diversity thrives. Whether it's through personal achievements, collective victories, or the
-                            lessons learned from defeat.
+                            You won't hear me say "Lose 10kg in one month". I don't use cheap marketing tricks or sell false
+                            promises.
+                            I promote real, sustainable results built on intelligent training, consistency, and patience.
                         </p>
                         <p>
-                            Sports teach valuable life skills and inspire people to push boundaries. From local playgrounds
-                            to global arenas, the influence of sports transcends competition.
+                            Talent is cheap. Discipline is expensive. Whether you are a beginner or an advanced athlete, the
+                            principles remain the same:
+                            work with purpose, remain disciplined, and the results will follow.
                         </p>
                     </div>
 
@@ -473,8 +473,10 @@
 
                     <div class="space-y-6 text-gray-300 text-lg leading-relaxed">
                         <p>
-                            Discipline isn't just a word—it's the currency of success. With over a decade of experience in
-                            the trenches of bodybuilding and fitness, I don't just write plans; I engineer results.
+                            My journey began at 14, in a small attic with nothing but a rusty barbell and a desire to feel
+                            normal.
+                            Today, that same drive fuels every plan I write. I don't just ask you to do it; I do it every
+                            day.
                         </p>
                         <p>
                             My methodology combines old-school grit with modern exercise science. Whether your goal is to

@@ -9,14 +9,14 @@
         <!-- Background Image with Dark Overlay -->
         <!-- Background Image Slider -->
         <div x-data="{ 
-                                        activeSlide: 0, 
-                                        slides: [
-                                            '/images/Gym/optimized/IMG_8704.jpeg', 
-                                            '/images/Gym/optimized/IMG_3608.jpeg', 
-                                            '/images/Gym/optimized/IMG_8718.jpeg'
-                                        ],
-                                        timer: null
-                                    }"
+                                            activeSlide: 0, 
+                                            slides: [
+                                                '/images/Gym/optimized/IMG_8704.jpeg', 
+                                                '/images/Gym/optimized/IMG_3608.jpeg', 
+                                                '/images/Gym/optimized/IMG_8718.jpeg'
+                                            ],
+                                            timer: null
+                                        }"
             x-init="timer = setInterval(() => { activeSlide = activeSlide === slides.length - 1 ? 0 : activeSlide + 1 }, 5000)"
             class="absolute inset-0 z-0">
 
@@ -53,36 +53,40 @@
                 <div class="w-full md:w-1/2 order-2 md:order-1" data-aos="fade-right">
                     <h2
                         class="text-3xl md:text-4xl font-heading font-bold text-white mb-6 uppercase border-l-4 border-brand-gold pl-4">
-                        The Beginning</h2>
+                        My Story</h2>
                     <p class="text-gray-400 text-lg leading-relaxed mb-6">
-                        Every legacy starts with a decision. My journey into the world of fitness wasn't accidental; it was
-                        forged through early mornings, late nights, and an unyielding desire to change.
+                        My journey began at the age of 14. Not in a modern gym, not with expensive equipment, but in the
+                        attic of my family home, in the countryside, using only a bench, a barbell, and a few dumbbells.
+                    </p>
+                    <p class="text-gray-400 text-lg leading-relaxed mb-6">
+                        I started for one simple but deeply personal reason: I didn't feel comfortable in my own body. I was
+                        extremely skinny, below any physical standard, and I wanted just one thing — to feel normal.
                     </p>
                     <p class="text-gray-400 text-lg leading-relaxed">
-                        It started in a small gym with basic equipment but unlimited ambition. I learned that iron doesn't
-                        lie—you get out exactly what you put in.
+                        At that time, information was very limited. One athlete who motivated me deeply from the beginning
+                        was Kai Greene — not only because of his physique, but because of his mindset.
                     </p>
                 </div>
                 <div class="w-full md:w-1/2 order-1 md:order-2" data-aos="fade-left">
                     <div x-data="{
-                                                    activeCard: 0,
-                                                    cards: [
-                                                        '/images/Gym/optimized/IMG_0041.jpeg',
-                                                        '/images/Gym/optimized/IMG_0047.jpeg',
-                                                        '/images/Gym/optimized/IMG_0049.jpeg'
-                                                    ],
-                                                    next() {
-                                                        this.activeCard = this.activeCard === this.cards.length - 1 ? 0 : this.activeCard + 1;
-                                                    }
-                                                }" x-init="setInterval(() => next(), 3000)"
+                                                        activeCard: 0,
+                                                        cards: [
+                                                            '/images/Gym/optimized/IMG_0041.jpeg',
+                                                            '/images/Gym/optimized/IMG_0047.jpeg',
+                                                            '/images/Gym/optimized/IMG_0049.jpeg'
+                                                        ],
+                                                        next() {
+                                                            this.activeCard = this.activeCard === this.cards.length - 1 ? 0 : this.activeCard + 1;
+                                                        }
+                                                    }" x-init="setInterval(() => next(), 3000)"
                         class="relative h-[450px] w-full max-w-md mx-auto group cursor-pointer" @click="next()">
 
                         <template x-for="(card, index) in cards" :key="index">
                             <div x-show="true" class="absolute inset-0 transition-all duration-700 ease-out" :class="{
-                                                            'z-30 opacity-100 translate-x-0 translate-y-0 scale-100': activeCard === index,
-                                                            'z-20 opacity-40 translate-x-4 translate-y-4 scale-95 rotate-3': activeCard !== index && (index === (activeCard + 1) % cards.length),
-                                                            'z-10 opacity-0 translate-x-8 translate-y-8 scale-90 rotate-6': activeCard !== index && (index !== (activeCard + 1) % cards.length)
-                                                         }">
+                                                                'z-30 opacity-100 translate-x-0 translate-y-0 scale-100': activeCard === index,
+                                                                'z-20 opacity-40 translate-x-4 translate-y-4 scale-95 rotate-3': activeCard !== index && (index === (activeCard + 1) % cards.length),
+                                                                'z-10 opacity-0 translate-x-8 translate-y-8 scale-90 rotate-6': activeCard !== index && (index !== (activeCard + 1) % cards.length)
+                                                             }">
                                 <div class="absolute -inset-2 bg-brand-gold/20 rounded-2xl blur-lg transition-all duration-300"
                                     :class="activeCard === index ? 'opacity-100' : 'opacity-0'"></div>
                                 <img :src="card" alt="The Beginning"
@@ -98,24 +102,24 @@
             <div class="flex flex-col md:flex-row items-center gap-12">
                 <div class="w-full md:w-1/2 order-1" data-aos="fade-right">
                     <div x-data="{
-                                                activeCard: 0,
-                                                cards: [
-                                                    '/images/Gym/optimized/IMG_0050.jpeg',
-                                                    '/images/Gym/optimized/IMG_0051.jpeg',
-                                                    '/images/Gym/optimized/IMG_0176.jpeg'
-                                                ],
-                                                next() {
-                                                    this.activeCard = this.activeCard === this.cards.length - 1 ? 0 : this.activeCard + 1;
-                                                }
-                                            }" x-init="setInterval(() => next(), 3500)"
+                                                    activeCard: 0,
+                                                    cards: [
+                                                        '/images/Gym/optimized/IMG_0050.jpeg',
+                                                        '/images/Gym/optimized/IMG_0051.jpeg',
+                                                        '/images/Gym/optimized/IMG_0176.jpeg'
+                                                    ],
+                                                    next() {
+                                                        this.activeCard = this.activeCard === this.cards.length - 1 ? 0 : this.activeCard + 1;
+                                                    }
+                                                }" x-init="setInterval(() => next(), 3500)"
                         class="relative h-[450px] w-full max-w-md mx-auto group cursor-pointer" @click="next()">
 
                         <template x-for="(card, index) in cards" :key="index">
                             <div x-show="true" class="absolute inset-0 transition-all duration-700 ease-out" :class="{
-                                                        'z-30 opacity-100 translate-x-0 translate-y-0 scale-100': activeCard === index,
-                                                        'z-20 opacity-40 -translate-x-4 translate-y-4 scale-95 -rotate-3': activeCard !== index && (index === (activeCard + 1) % cards.length),
-                                                        'z-10 opacity-0 -translate-x-8 translate-y-8 scale-90 -rotate-6': activeCard !== index && (index !== (activeCard + 1) % cards.length)
-                                                     }">
+                                                            'z-30 opacity-100 translate-x-0 translate-y-0 scale-100': activeCard === index,
+                                                            'z-20 opacity-40 -translate-x-4 translate-y-4 scale-95 -rotate-3': activeCard !== index && (index === (activeCard + 1) % cards.length),
+                                                            'z-10 opacity-0 -translate-x-8 translate-y-8 scale-90 -rotate-6': activeCard !== index && (index !== (activeCard + 1) % cards.length)
+                                                         }">
                                 <div class="absolute -inset-2 bg-brand-gold/20 rounded-2xl blur-lg transition-all duration-300"
                                     :class="activeCard === index ? 'opacity-100' : 'opacity-0'"></div>
                                 <img :src="card" alt="The Grind"
@@ -128,15 +132,20 @@
                 <div class="w-full md:w-1/2 order-2" data-aos="fade-left">
                     <h2
                         class="text-3xl md:text-4xl font-heading font-bold text-white mb-6 uppercase border-r-4 border-brand-gold pr-4 text-right">
-                        The Grind</h2>
+                        Me as a Personal Trainer</h2>
                     <p class="text-gray-400 text-lg leading-relaxed mb-6 text-right">
-                        Talent is cheap. Discipline is expensive. The grind isn't about the highlight reel; it's about the
-                        meals eaten when you're not hungry, the sets done when you're exhausted, and the sacrifices made
-                        when no one is watching.
+                        My journey as a coach started naturally. Even before becoming certified, I was already helping
+                        friends and people around me in the gym. Their results showed me that I could do this at a
+                        professional level.
+                        At 19, I earned my certification and have now been coaching for over 5 years.
                     </p>
-                    <p class="text-gray-400 text-lg leading-relaxed text-right">
-                        Years of dialing in nutrition and training methodology have taught me one thing: consistency trumps
-                        intensity, every single time.
+                    <p class="text-gray-400 text-lg leading-relaxed text-right mb-6">
+                        Working with more than 200 clients, including lifestyle clients (fat loss, muscle gain), performance
+                        athletes, and beginners to advanced trainees.
+                    </p>
+                    <p class="text-gray-400 text-lg leading-relaxed text-right font-medium text-white">
+                        One thing is certain: there has never been a client who achieved no results, even in short-term
+                        collaborations. And those who stayed consistent long-term achieved truly impressive transformations.
                     </p>
                 </div>
             </div>
@@ -146,36 +155,44 @@
                 <div class="w-full md:w-1/2 order-2 md:order-1" data-aos="fade-right">
                     <h2
                         class="text-3xl md:text-4xl font-heading font-bold text-white mb-6 uppercase border-l-4 border-brand-gold pl-4">
-                        The Stage</h2>
-                    <p class="text-gray-400 text-lg leading-relaxed mb-6">
-                        Stepping on stage is the culmination of thousands of hours of work. It’s the ultimate test of
-                        willpower and physical mastery.
-                    </p>
+                        What Sets Me Apart</h2>
+                    <ul class="text-gray-400 text-lg leading-relaxed mb-6 space-y-2">
+                        <li class="flex items-center"><span class="text-brand-gold mr-3">✓</span> I tell people the truth,
+                            even when it's uncomfortable</li>
+                        <li class="flex items-center"><span class="text-brand-gold mr-3">✓</span> I don't sell lies or false
+                            promises</li>
+                        <li class="flex items-center"><span class="text-brand-gold mr-3">✓</span> I don't use cheap
+                            marketing tricks</li>
+                    </ul>
                     <p class="text-gray-400 text-lg leading-relaxed">
-                        I bring this same level of competitive excellence to my coaching. I know what it takes to peak, to
-                        shred, and to win—and I apply these elite standards to every client I work with.
+                        I promote real, sustainable, and healthy results, built on: structured nutrition plans, intelligent
+                        personalized training, proper recovery, consistency, and respect for the process.
+                    </p>
+                    <p class="text-gray-400 text-lg leading-relaxed mt-4 italic">
+                        I firmly believe that the most valuable results never come overnight, and the satisfaction is far
+                        greater when you know you earned them.
                     </p>
                 </div>
                 <div class="w-full md:w-1/2 order-1 md:order-2" data-aos="fade-left">
                     <div x-data="{
-                                                    activeCard: 0,
-                                                    cards: [
-                                                        '/images/Gym/optimized/IMG_8705.jpeg',
-                                                        '/images/Gym/optimized/IMG_8703.jpeg',
-                                                        '/images/Gym/optimized/IMG_8706.jpeg'
-                                                    ],
-                                                    next() {
-                                                        this.activeCard = this.activeCard === this.cards.length - 1 ? 0 : this.activeCard + 1;
-                                                    }
-                                                }" x-init="setInterval(() => next(), 4000)"
+                                                        activeCard: 0,
+                                                        cards: [
+                                                            '/images/Gym/optimized/IMG_8705.jpeg',
+                                                            '/images/Gym/optimized/IMG_8703.jpeg',
+                                                            '/images/Gym/optimized/IMG_8706.jpeg'
+                                                        ],
+                                                        next() {
+                                                            this.activeCard = this.activeCard === this.cards.length - 1 ? 0 : this.activeCard + 1;
+                                                        }
+                                                    }" x-init="setInterval(() => next(), 4000)"
                         class="relative h-[450px] w-full max-w-md mx-auto group cursor-pointer" @click="next()">
 
                         <template x-for="(card, index) in cards" :key="index">
                             <div x-show="true" class="absolute inset-0 transition-all duration-700 ease-out" :class="{
-                                                            'z-30 opacity-100 translate-x-0 translate-y-0 scale-100': activeCard === index,
-                                                            'z-20 opacity-40 translate-x-4 translate-y-4 scale-95 rotate-3': activeCard !== index && (index === (activeCard + 1) % cards.length),
-                                                            'z-10 opacity-0 translate-x-8 translate-y-8 scale-90 rotate-6': activeCard !== index && (index !== (activeCard + 1) % cards.length)
-                                                         }">
+                                                                'z-30 opacity-100 translate-x-0 translate-y-0 scale-100': activeCard === index,
+                                                                'z-20 opacity-40 translate-x-4 translate-y-4 scale-95 rotate-3': activeCard !== index && (index === (activeCard + 1) % cards.length),
+                                                                'z-10 opacity-0 translate-x-8 translate-y-8 scale-90 rotate-6': activeCard !== index && (index !== (activeCard + 1) % cards.length)
+                                                             }">
                                 <div class="absolute -inset-2 bg-brand-gold/20 rounded-2xl blur-lg transition-all duration-300"
                                     :class="activeCard === index ? 'opacity-100' : 'opacity-0'"></div>
                                 <img :src="card" alt="The Stage"
@@ -298,8 +315,8 @@
         <div class="max-w-4xl mx-auto px-6 relative z-10" data-aos="zoom-in">
             <div class="border-l-4 border-brand-gold pl-8 md:pl-12 py-4">
                 <h3 class="text-3xl md:text-5xl font-heading font-bold text-white italic leading-tight mb-6">
-                    "I don't just ask you to do it. I've been there. I do it <span class="text-brand-gold">every
-                        day.</span>"
+                    "Nothing is Impossible. Your mindset is the key. <br>
+                    <span class="text-brand-gold">Results come when you truly want them.</span>"
                 </h3>
                 <p class="text-gray-400 text-lg uppercase tracking-widest font-bold">
                     - Tiberiu Tomoroga
