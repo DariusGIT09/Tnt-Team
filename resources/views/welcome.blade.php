@@ -144,7 +144,7 @@
                     </div>
 
                     <div class="mt-8">
-                        <a href="#"
+                        <a href="{{ route('about') }}"
                             class="inline-block border border-white/30 hover:border-brand-gold text-white hover:text-brand-gold font-bold uppercase tracking-wide py-3 px-8 rounded-full transition-all">
                             Learn More
                         </a>
@@ -412,7 +412,7 @@
                         </h3>
                         <h2 class="text-4xl md:text-5xl font-heading font-bold text-white italic uppercase leading-none">
                             Genius <br> <span
-                                class="text-transparent bg-clip-text bg-gradient-to-r from-brand-gold to-yellow-500">Nutrition</span>
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-brand-gold to-yellow-500 pr-2">Nutrition</span>
                         </h2>
                     </div>
                 </div>

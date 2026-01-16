@@ -5,10 +5,9 @@
         <div class="flex justify-between items-center h-20">
             <!-- Logo -->
             <div class="flex-shrink-0">
-                <a href="{{ route('home') }}"
-                    class="text-3xl font-heading font-bold italic tracking-tighter text-white transform transition-transform duration-300"
+                <a href="{{ route('home') }}" class="block transform transition-transform duration-300"
                     :class="{ 'scale-90': scrolled }">
-                    TNT <span class="text-brand-gold">TEAM</span>
+                    <img src="{{ asset('images/ICONS/TNTTeamLOGO.png') }}" alt="TNT Team Logo" class="h-10 w-auto">
                 </a>
             </div>
 

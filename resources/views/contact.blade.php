@@ -11,7 +11,7 @@
                     Get In <span class="text-brand-gold">Touch</span>
                 </h1>
                 <p class="text-gray-400 text-xl font-medium tracking-wide max-w-2xl mx-auto">
-                    Ready to start your transformation? Contact us today.
+                    Ready to start your transformation? Contact us today!
                 </p>
             </div>
 
@@ -19,7 +19,7 @@
                 <!-- Left Column: Contact Info -->
                 <div class="space-y-12" data-aos="fade-right">
                     <div>
-                        <h2 class="text-3xl font-heading font-bold text-white uppercase tracking-wide mb-6">Contact Info
+                        <h2 class="text-3xl font-heading font-bold text-white uppercase tracking-wide mb-6">Contact Info:
                         </h2>
                         <div class="space-y-6">
                             <div class="flex items-start space-x-4">
@@ -70,7 +70,7 @@
                     </div>
 
                     <div>
-                        <h2 class="text-3xl font-heading font-bold text-white uppercase tracking-wide mb-6">Follow Us</h2>
+                        <h2 class="text-3xl font-heading font-bold text-white uppercase tracking-wide mb-6">Follow Us:</h2>
                         <div class="flex space-x-4">
                             <a href="https://www.youtube.com/@tomorogatiberiu" target="_blank"
                                 class="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white hover:bg-brand-gold hover:text-black hover:border-brand-gold transition-all duration-300">
