@@ -15,8 +15,7 @@
 
         <!-- Hero Content -->
         <div class="relative z-10 text-center px-4 max-w-5xl mx-auto mt-16">
-            <h1
-                class="text-6xl md:text-8xl font-heading font-bold text-white uppercase leading-none tracking-tighter mb-6 drop-shadow-lg"
+            <h1 class="text-6xl md:text-8xl font-heading font-bold text-white uppercase leading-none tracking-tighter mb-6 drop-shadow-lg"
                 data-aos="fade-down">
                 Push <span class="text-brand-gold">Limits.</span><br>
                 Achieve <span class="text-white border-b-4 border-brand-gold">Greatness.</span>
@@ -26,7 +25,8 @@
                     Tomoroga</span>.
                 Forge your legacy.
             </p>
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up"
+                data-aos-delay="200">
                 <a href="{{ route('contact') }}"
                     class="bg-brand-gold hover:bg-brand-gold-hover text-black font-heading font-bold text-xl py-4 px-10 rounded-full transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(250,204,21,0.4)]">
                     START YOUR JOURNEY
@@ -172,7 +172,7 @@
     </section>
 
     <!-- Features & Stats Section -->
-    <section class="py-24 bg-brand-dark/50 relative overflow-hidden">
+    <section class="py-24 bg-[#111111] relative overflow-hidden">
         <!-- Background Elements -->
         <div class="absolute top-0 left-0 w-full h-full">
             <div class="absolute top-10 left-10 w-96 h-96 bg-brand-gold/5 rounded-full filter blur-[100px]"></div>
@@ -225,10 +225,11 @@
 
                         <!-- Card 1: Personal Training -->
                         <div class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-glow"
-                             data-aos="fade-up" data-aos-delay="0">
+                            data-aos="fade-up" data-aos-delay="0">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-                                <img src="{{ asset('images/ICONS/dumbelICON.png') }}" class="w-9 h-9 object-contain" alt="Personal Training">
+                                <img src="{{ asset('images/ICONS/dumbelICON.png') }}" class="w-9 h-9 object-contain"
+                                    alt="Personal Training">
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Personal Training</h3>
                             <p class="text-gray-400 text-sm leading-relaxed">
@@ -239,10 +240,11 @@
 
                         <!-- Card 2: Posing & Presentation -->
                         <div class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 mt-0 md:mt-12 shadow-md hover:shadow-glow"
-                             data-aos="fade-up" data-aos-delay="100">
+                            data-aos="fade-up" data-aos-delay="100">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-                                <img src="{{ asset('images/ICONS/PosingICON.png') }}" class="w-9 h-9 object-contain" alt="Posing">
+                                <img src="{{ asset('images/ICONS/PosingICON.png') }}" class="w-9 h-9 object-contain"
+                                    alt="Posing">
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Posing & Presentation</h3>
                             <p class="text-gray-400 text-sm leading-relaxed">
@@ -253,10 +255,11 @@
 
                         <!-- Card 3: Strength Training -->
                         <div class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-glow"
-                             data-aos="fade-up" data-aos-delay="200">
+                            data-aos="fade-up" data-aos-delay="200">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-                                <img src="{{ asset('images/ICONS/Biceps icon.png') }}" class="w-9 h-9 object-contain" alt="Strength Training">
+                                <img src="{{ asset('images/ICONS/Biceps icon.png') }}" class="w-9 h-9 object-contain"
+                                    alt="Strength Training">
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Strength Training</h3>
                             <p class="text-gray-400 text-sm leading-relaxed">
@@ -266,10 +269,11 @@
 
                         <!-- Card 4: Nutrition Guidance -->
                         <div class="bg-[#2a2f38] p-8 rounded-xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-1 mt-0 md:mt-12 shadow-md hover:shadow-glow"
-                             data-aos="fade-up" data-aos-delay="300">
+                            data-aos="fade-up" data-aos-delay="300">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-                                <img src="{{ asset('images/ICONS/NutritionICON.png') }}" class="w-9 h-9 object-contain" alt="Nutrition">
+                                <img src="{{ asset('images/ICONS/NutritionICON.png') }}" class="w-9 h-9 object-contain"
+                                    alt="Nutrition">
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Nutrition Guidance</h3>
                             <p class="text-gray-400 text-sm leading-relaxed">
@@ -295,8 +299,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Card 1 -->
-                <div
-                    class="group relative bg-brand-gray p-8 rounded-2xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-2 overflow-hidden shadow-lg hover:shadow-glow"
+                <div class="group relative bg-brand-gray p-8 rounded-2xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-2 overflow-hidden shadow-lg hover:shadow-glow"
                     data-aos="zoom-in" data-aos-delay="0">
                     <div
                         class="absolute top-0 right-0 w-24 h-24 bg-brand-gold/10 rounded-bl-full -mr-4 -mt-4 transition-all group-hover:bg-brand-gold/20">
@@ -326,8 +329,7 @@
                 </div>
 
                 <!-- Card 2 -->
-                <div
-                    class="group relative bg-brand-gray p-8 rounded-2xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-2 overflow-hidden shadow-lg hover:shadow-glow"
+                <div class="group relative bg-brand-gray p-8 rounded-2xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-2 overflow-hidden shadow-lg hover:shadow-glow"
                     data-aos="zoom-in" data-aos-delay="100">
                     <div
                         class="absolute top-0 right-0 w-24 h-24 bg-brand-gold/10 rounded-bl-full -mr-4 -mt-4 transition-all group-hover:bg-brand-gold/20">
@@ -357,8 +359,7 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div
-                    class="group relative bg-brand-gray p-8 rounded-2xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-2 overflow-hidden shadow-lg hover:shadow-glow"
+                <div class="group relative bg-brand-gray p-8 rounded-2xl border border-brand-gold/10 hover:border-brand-gold transition-all duration-300 hover:-translate-y-2 overflow-hidden shadow-lg hover:shadow-glow"
                     data-aos="zoom-in" data-aos-delay="200">
                     <div
                         class="absolute top-0 right-0 w-24 h-24 bg-brand-gold/10 rounded-bl-full -mr-4 -mt-4 transition-all group-hover:bg-brand-gold/20">
@@ -392,21 +393,28 @@
 
     <!-- Genius Nutrition Partner Section -->
     <section class="py-20 bg-[#0a0a0a] relative overflow-hidden border-y border-white/5" data-aos="fade-up">
-        <div class="absolute inset-0 bg-[url('/images/ICONS/GeniusLogo.avif')] opacity-5 bg-center bg-no-repeat bg-contain blur-sm"></div>
+        <div
+            class="absolute inset-0 bg-[url('/images/ICONS/GeniusLogo.avif')] opacity-5 bg-center bg-no-repeat bg-contain blur-sm">
+        </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 bg-gradient-to-r from-brand-gray/50 to-transparent p-6 md:p-10 rounded-3xl border border-white/5 backdrop-blur-sm">
-                
+            <div
+                class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 bg-gradient-to-r from-brand-gray/50 to-transparent p-6 md:p-10 rounded-3xl border border-white/5 backdrop-blur-sm">
+
                 <!-- Logo & Title -->
                 <div class="flex flex-col sm:flex-row items-center gap-6 md:gap-8 flex-shrink-0 text-center sm:text-left">
-                   <div class="w-32 h-32 md:w-40 md:h-40 bg-black/50 rounded-full flex items-center justify-center border-2 border-brand-gold/20 shadow-glow p-6 flex-shrink-0">
-                       <img src="{{ asset('images/ICONS/GeniusLogo.avif') }}" alt="Genius Nutrition" class="w-full h-full object-contain">
-                   </div>
-                   <div>
-                       <h3 class="text-brand-gold font-bold text-sm tracking-[0.2em] uppercase mb-2">Official Fuel Partner</h3>
-                       <h2 class="text-4xl md:text-5xl font-heading font-bold text-white italic uppercase leading-none">
-                           Genius <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-gold to-yellow-500">Nutrition</span>
-                       </h2>
-                   </div>
+                    <div
+                        class="w-32 h-32 md:w-40 md:h-40 bg-black/50 rounded-full flex items-center justify-center border-2 border-brand-gold/20 shadow-glow p-6 flex-shrink-0">
+                        <img src="{{ asset('images/ICONS/GeniusLogo.avif') }}" alt="Genius Nutrition"
+                            class="w-full h-full object-contain">
+                    </div>
+                    <div>
+                        <h3 class="text-brand-gold font-bold text-sm tracking-[0.2em] uppercase mb-2">Official Fuel Partner
+                        </h3>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold text-white italic uppercase leading-none">
+                            Genius <br> <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-brand-gold to-yellow-500">Nutrition</span>
+                        </h2>
+                    </div>
                 </div>
 
                 <!-- Dismiss/Action -->
@@ -414,24 +422,29 @@
                     <p class="text-gray-400 text-lg mb-6 lg:ml-auto">
                         Fuel your ambition with premium supplements. Use my exclusive code for a discount on your order.
                     </p>
-                    
-                    <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-end w-full" x-data="{ copied: false }">
-                         <div class="group relative bg-black/80 border border-brand-gold rounded-xl px-6 py-4 flex items-center gap-4 cursor-pointer hover:bg-brand-gold/10 transition-all w-full sm:w-auto justify-between sm:justify-start"
-                              @click="navigator.clipboard.writeText('TIBERIU12'); copied = true; setTimeout(() => copied = false, 2000)">
-                             <div class="text-left flex-shrink-0">
-                                 <span class="block text-xs text-gray-500 uppercase tracking-wider">Discount Code</span>
-                                 <span class="block text-2xl font-mono font-bold text-brand-gold tracking-widest whitespace-nowrap">TIBERIU12</span>
-                             </div>
-                             <div class="h-10 w-px bg-white/10 mx-2 hidden sm:block"></div>
-                             <div class="text-brand-gold flex-shrink-0">
-                                <span x-show="!copied" class="font-bold text-base sm:text-xl whitespace-nowrap">12% OFF</span>
-                                <span x-show="copied" class="text-sm font-bold text-green-500 whitespace-nowrap" x-transition>COPIED!</span>
-                             </div>
-                         </div>
-                         
-                         <a href="https://geniusnutrition.ro" target="_blank" class="bg-white text-black font-bold py-4 px-8 rounded-xl hover:bg-gray-200 transition-colors uppercase tracking-wide w-full sm:w-auto whitespace-nowrap">
-                             Shop Now
-                         </a>
+
+                    <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-end w-full"
+                        x-data="{ copied: false }">
+                        <div class="group relative bg-black/80 border border-brand-gold rounded-xl px-6 py-4 flex items-center gap-4 cursor-pointer hover:bg-brand-gold/10 transition-all w-full sm:w-auto justify-between sm:justify-start"
+                            @click="navigator.clipboard.writeText('TIBERIU12'); copied = true; setTimeout(() => copied = false, 2000)">
+                            <div class="text-left flex-shrink-0">
+                                <span class="block text-xs text-gray-500 uppercase tracking-wider">Discount Code</span>
+                                <span
+                                    class="block text-2xl font-mono font-bold text-brand-gold tracking-widest whitespace-nowrap">TIBERIU12</span>
+                            </div>
+                            <div class="h-10 w-px bg-white/10 mx-2 hidden sm:block"></div>
+                            <div class="text-brand-gold flex-shrink-0">
+                                <span x-show="!copied" class="font-bold text-base sm:text-xl whitespace-nowrap">12%
+                                    OFF</span>
+                                <span x-show="copied" class="text-sm font-bold text-green-500 whitespace-nowrap"
+                                    x-transition>COPIED!</span>
+                            </div>
+                        </div>
+
+                        <a href="https://geniusnutrition.ro" target="_blank"
+                            class="bg-white text-black font-bold py-4 px-8 rounded-xl hover:bg-gray-200 transition-colors uppercase tracking-wide w-full sm:w-auto whitespace-nowrap">
+                            Shop Now
+                        </a>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="overflow-x-hidden">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="overflow-x-hidden h-full">
 
 <head>
     <meta charset="utf-8">
@@ -73,7 +73,7 @@
     </style>
 </head>
 
-<body class="antialiased bg-brand-dark text-white overflow-x-hidden">
+<body class="antialiased bg-[#111111] text-white overflow-x-hidden h-full overscroll-y-none">
     @yield('content')
 
     <script>
