@@ -9,14 +9,21 @@ class TransformationController extends Controller
 {
     public function index()
     {
-        $directory = public_path('images/results');
+        $directory = public_path('images/results_optimized');
+        $urlPath = '/images/results_optimized/';
+
+        if (!File::exists($directory)) {
+            $directory = public_path('images/results');
+            $urlPath = '/images/results/';
+        }
+
         $images = [];
 
         if (File::exists($directory)) {
             $files = File::files($directory);
             foreach ($files as $file) {
                 // Get relative path for the view
-                $images[] = '/images/results/' . $file->getFilename();
+                $images[] = $urlPath . $file->getFilename();
             }
         }
 

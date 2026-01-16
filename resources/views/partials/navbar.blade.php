@@ -1,6 +1,6 @@
 <nav x-data="{ open: false, scrolled: false }" @scroll.window="scrolled = (window.pageYOffset > 20)"
-    :class="{ 'bg-black/90 backdrop-blur-xl border-brand-gold/20 shadow-glow': scrolled, 'bg-transparent border-transparent': !scrolled }"
-    class="fixed top-0 left-0 w-full z-50 border-b transition-all duration-300 ease-in-out">
+    :class="{ 'bg-black/90 backdrop-blur-xl border-b border-brand-gold/20 shadow-glow': scrolled, 'bg-transparent': !scrolled }"
+    class="fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-20">
             <!-- Logo -->
@@ -50,7 +50,7 @@
         x-transition:enter-start="opacity-0 -translate-y-2" x-transition:enter-end="opacity-100 translate-y-0"
         x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0"
         x-transition:leave-end="opacity-0 -translate-y-2"
-        class="md:hidden bg-brand-dark/95 backdrop-blur-md border-b border-brand-charcoal absolute w-full left-0 shadow-xl">
+        class="md:hidden bg-brand-dark/95 backdrop-blur-md absolute w-full left-0 shadow-xl">
         <div class="px-4 pt-2 pb-6 space-y-4">
             <a href="{{ route('home') }}"
                 class="block text-white hover:text-brand-gold font-bold text-lg border-l-2 border-transparent hover:border-brand-gold pl-2 transition-all">HOME</a>
