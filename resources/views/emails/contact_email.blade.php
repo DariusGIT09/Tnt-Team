@@ -39,7 +39,8 @@
                             NAME</td>
                         <td
                             style="padding: 15px; background-color: #2a2a2a; border-radius: 0 8px 8px 0; color: #ffffff; font-weight: bold; font-size: 16px;">
-                            {{ $data['name'] }}</td>
+                            {{ $data['name'] }}
+                        </td>
                     </tr>
                     <tr>
                         <td
@@ -54,10 +55,32 @@
                     <tr>
                         <td
                             style="padding: 15px; background-color: #252525; border-radius: 8px 0 0 8px; color: #888888; width: 100px; font-weight: bold; font-size: 12px; text-transform: uppercase;">
+                            PHONE</td>
+                        <td
+                            style="padding: 15px; background-color: #2a2a2a; border-radius: 0 8px 8px 0; color: #ffffff; font-weight: bold; font-size: 16px;">
+                            <a href="tel:{{ $data['phone'] }}"
+                                style="color: #D4AF37; text-decoration: none;">{{ $data['phone'] }}</a>
+                        </td>
+                    </tr>
+                    @if(!empty($data['instagram']))
+                        <tr>
+                            <td
+                                style="padding: 15px; background-color: #252525; border-radius: 8px 0 0 8px; color: #888888; width: 100px; font-weight: bold; font-size: 12px; text-transform: uppercase;">
+                                INSTAGRAM</td>
+                            <td
+                                style="padding: 15px; background-color: #2a2a2a; border-radius: 0 8px 8px 0; color: #ffffff; font-weight: bold; font-size: 16px;">
+                                {{ $data['instagram'] }}
+                            </td>
+                        </tr>
+                    @endif
+                    <tr>
+                        <td
+                            style="padding: 15px; background-color: #252525; border-radius: 8px 0 0 8px; color: #888888; width: 100px; font-weight: bold; font-size: 12px; text-transform: uppercase;">
                             GOAL</td>
                         <td
                             style="padding: 15px; background-color: #2a2a2a; border-radius: 0 8px 8px 0; color: #ffffff; font-weight: bold; font-size: 16px;">
-                            {{ $data['goal'] }}</td>
+                            {{ $data['goal'] }}
+                        </td>
                     </tr>
                 </table>
 

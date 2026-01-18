@@ -21,11 +21,13 @@ class ContactController extends Controller
         $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email',
+            'phone' => 'required|string|max:20',
+            'instagram' => 'nullable|string|max:255',
             'goal' => 'required|string',
             'message' => 'required|string',
         ]);
 
-        $data = $request->only(['name', 'email', 'goal', 'message']);
+        $data = $request->only(['name', 'email', 'phone', 'instagram', 'goal', 'message']);
 
         // Send email to the specific addresses
         Mail::to(['dariuscatinas1@gmail.com', 'tiberiu.tomoroga@yahoo.com'])->send(new ContactFormMail($data));

@@ -111,7 +111,7 @@
                     </div>
 
                     <!-- Interactive Map -->
-                    <div class="mt-8 rounded-2xl overflow-hidden border border-white/10 h-64 relative group">
+                    <div class="mt-8 rounded-2xl overflow-hidden border border-white/10 h-[440px] relative group">
                         <div class="absolute inset-0 pointer-events-none z-10 mix-blend-overlay bg-brand-gold/10"></div>
                         <div class="absolute inset-0 pointer-events-none z-10 bg-black/30"></div>
                         <iframe
@@ -149,6 +149,22 @@
                             <input type="email" id="email" name="email" required
                                 class="w-full bg-gray-800 border-0 text-white p-4 rounded-lg focus:ring-2 focus:ring-brand-gold transition-all placeholder-gray-600"
                                 placeholder="youradress@email.com">
+                        </div>
+                        <div>
+                            <label for="phone"
+                                class="block text-sm font-medium text-gray-400 mb-2 uppercase tracking-wide">Phone
+                                Number</label>
+                            <input type="tel" id="phone" name="phone" required
+                                class="w-full bg-gray-800 border-0 text-white p-4 rounded-lg focus:ring-2 focus:ring-brand-gold transition-all placeholder-gray-600"
+                                placeholder="+40 700 000 000">
+                        </div>
+                        <div>
+                            <label for="instagram"
+                                class="block text-sm font-medium text-gray-400 mb-2 uppercase tracking-wide">Instagram
+                                (Optional)</label>
+                            <input type="text" id="instagram" name="instagram"
+                                class="w-full bg-gray-800 border-0 text-white p-4 rounded-lg focus:ring-2 focus:ring-brand-gold transition-all placeholder-gray-600"
+                                placeholder="@username">
                         </div>
                         <div>
                             <label for="goal"
