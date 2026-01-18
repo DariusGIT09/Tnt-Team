@@ -28,7 +28,11 @@ class ContactController extends Controller
         $data = $request->only(['name', 'email', 'goal', 'message']);
 
         // Send email to the specific addresses
-        Mail::to(['tiberiu.tomoroga@yahoo.com'])->send(new ContactFormMail($data));
+        Mail::to(['dariuscatinas1@gmail.com', 'tiberiu.tomoroga@yahoo.com'])->send(new ContactFormMail($data));
+
+        if ($request->wantsJson()) {
+            return response()->json(['success' => true, 'message' => 'Thank you for your message! We will get back to you soon.']);
+        }
 
         return back()->with('success', 'Thank you for your message! We will get back to you soon.');
     }

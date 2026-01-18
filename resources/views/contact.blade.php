@@ -123,6 +123,8 @@
 
                 <!-- Right Column: Contact Form -->
                 <div class="bg-brand-gray p-8 md:p-10 rounded-2xl border border-white/5 shadow-2xl" data-aos="fade-left">
+                    <div id="form-messages" class="hidden mb-6"></div>
+
                     @if(session('success'))
                         <div class="bg-green-500/10 border border-green-500 text-green-500 px-4 py-3 rounded relative mb-6"
                             role="alert">
@@ -130,7 +132,7 @@
                         </div>
                     @endif
 
-                    <form class="space-y-6" action="{{ route('contact.send') }}" method="POST">
+                    <form id="contactForm" class="space-y-6" action="{{ route('contact.send') }}" method="POST">
                         @csrf
                         <div>
                             <label for="name"
@@ -187,4 +189,63 @@
     </div>
 
     @include('partials.footer')
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const form = this;
+            const button = form.querySelector('button[type="submit"]');
+            const messagesDiv = document.getElementById('form-messages');
+            const originalButtonText = button.innerText;
+
+            // Disable button and show loading state
+            button.disabled = true;
+            button.innerText = 'Sending...';
+            button.classList.add('opacity-75', 'cursor-not-allowed');
+
+            // Hide previous messages
+            messagesDiv.classList.add('hidden');
+            messagesDiv.className = 'hidden mb-6';
+
+            try {
+                const formData = new FormData(form);
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    headers: {
+                        'X-Requested-With': 'XMLHttpRequest',
+                        'Accept': 'application/json',
+                        'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value
+                    },
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (response.ok && data.success) {
+                    // Success message
+                    messagesDiv.innerHTML = `<div class="bg-green-500/10 border border-green-500 text-green-500 px-4 py-3 rounded relative" role="alert"><span class="block sm:inline">${data.message}</span></div>`;
+                    form.reset(); // Clear the form
+                } else {
+                    // Error message
+                    let errorMessage = data.message || 'Something went wrong. Please try again.';
+                    if (data.errors) {
+                        errorMessage = Object.values(data.errors).flat().join('<br>');
+                    }
+                    messagesDiv.innerHTML = `<div class="bg-red-500/10 border border-red-500 text-red-500 px-4 py-3 rounded relative" role="alert"><span class="block sm:inline">${errorMessage}</span></div>`;
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                messagesDiv.innerHTML = `<div class="bg-red-500/10 border border-red-500 text-red-500 px-4 py-3 rounded relative" role="alert"><span class="block sm:inline">An error occurred. Please try again later.</span></div>`;
+            } finally {
+                // Restore button state
+                button.disabled = false;
+                button.innerText = originalButtonText;
+                button.classList.remove('opacity-75', 'cursor-not-allowed');
+
+                // Show messages
+                messagesDiv.classList.remove('hidden');
+            }
+        });
+    </script>
 @endsection
