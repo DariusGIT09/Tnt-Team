@@ -8,7 +8,7 @@
     <section class="relative h-screen flex items-center justify-center overflow-hidden">
         <!-- Background Image with Dark Overlay -->
         <div class="absolute inset-0 z-0">
-            <img src="/images/Gym/optimized/IMG_3606.jpeg" alt="Hero Fitness Background"
+            <img src="/images/Gym/optimized/IMG_3606.jpeg" alt="Hero Fitness Background" fetchpriority="high"
                 class="w-full h-full object-cover object-[50%_25%]">
             <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-brand-dark"></div>
         </div>
@@ -18,7 +18,9 @@
             <h1 class="text-6xl md:text-8xl font-heading font-bold text-white uppercase leading-none tracking-tighter mb-6 drop-shadow-lg"
                 data-aos="fade-down">
                 Push <span class="text-brand-gold">Limits.</span><br>
-                Achieve <span class="text-white border-b-4 border-brand-gold">Greatness.</span>
+                Achieve <span class="text-white border-b-4 border-brand-gold">Greatness.</span><br>
+                <span class="text-4xl md:text-5xl block mt-4 text-gray-300">With <span class="text-brand-gold">Tiberiu
+                        Tomoroga</span></span>
             </h1>
             <p class="text-gray-300 text-lg md:text-2xl mb-10 font-normal max-w-2xl mx-auto">
                 Elite custom training and nutrition formulation by <span class="text-brand-gold font-bold">Tiberiu
@@ -161,7 +163,8 @@
                         class="absolute bottom-0 left-0 -ml-4 -mb-4 w-full h-full border-2 border-brand-gold/20 transform -skew-x-6 rounded-3xl z-0">
                     </div>
 
-                    <img src="/images/Gym/optimized/IMG_3607.jpeg" alt="Fitness Woman Running"
+                    <img src="/images/Gym/optimized/IMG_3607.jpeg" alt="Fitness Woman Running - Slabire si Tonifiere"
+                        loading="lazy" decoding="async"
                         class="relative z-10 w-full rounded-2xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500 object-cover object-[50%_25%]">
                 </div>
 
@@ -459,7 +462,8 @@
                 <div class="w-full lg:w-1/2 relative" data-aos="fade-right">
                     <div class="absolute -inset-4 bg-brand-gold/10 rounded-2xl transform -rotate-3 z-0"></div>
                     <div class="absolute -inset-4 bg-brand-gray/50 rounded-2xl transform rotate-3 z-0"></div>
-                    <img src="/images/Gym/optimized/Dumbbell.jpeg" alt="Coach Tiberiu"
+                    <img src="/images/Gym/optimized/Dumbbell.jpeg" alt="Coach Tiberiu Tomoroga - Antrenor Personal"
+                        loading="lazy" decoding="async"
                         class="relative z-10 w-full rounded-2xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500 border border-white/10 object-cover object-[50%_25%]">
                 </div>
 

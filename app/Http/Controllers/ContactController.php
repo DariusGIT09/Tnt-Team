@@ -10,7 +10,10 @@ class ContactController extends Controller
 {
     public function index()
     {
-        return view('contact');
+        return view('contact', [
+            'title' => 'Contactează TNT Team | Începe Transformarea',
+            'description' => 'Ești gata să faci o schimbare? Completează formularul și hai să discutăm despre obiectivele tale. Tiberiu Tomoroga - Antrenor Personal.'
+        ]);
     }
 
     public function send(Request $request)

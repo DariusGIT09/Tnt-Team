@@ -4,7 +4,61 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TNT Team | Tiberiu Tomoroga</title>
+    <title>{{ $title ?? 'Online Coaching & Fitness' }} | Tiberiu Tomoroga</title>
+    <meta name="description" content="{{ $description ?? 'Transformă-ți corpul cu Tiberiu Tomoroga. Planuri de antrenament și nutriție 100% personalizate. Intră în echipa TNT.' }}">
+    <link rel="canonical" href="{{ url()->current() }}" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="TNT Team" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ $title ?? 'Online Coaching & Fitness' }} | Tiberiu Tomoroga" />
+    <meta property="og:description" content="{{ $description ?? 'Transformă-ți corpul cu Tiberiu Tomoroga. Planuri de antrenament și nutriție 100% personalizate. Intră în echipa TNT.' }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:image" content="{{ asset('images/Gym/optimized/IMG_3606.jpeg') }}" />
+    <meta property="og:locale" content="ro_RO" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ $title ?? 'Online Coaching & Fitness' }} | Tiberiu Tomoroga" />
+    <meta name="twitter:description" content="{{ $description ?? 'Transformă-ți corpul cu Tiberiu Tomoroga. Planuri de antrenament și nutriție 100% personalizate. Intră în echipa TNT.' }}" />
+    <meta name="twitter:image" content="{{ asset('images/Gym/optimized/IMG_3606.jpeg') }}" />
+
+    <!-- JSON-LD Schema Graph -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Person",
+                "@id": "{{ url('/') }}#tiberiu",
+                "name": "Tiberiu Tomoroga",
+                "jobTitle": "Fitness Coach & Competitive Bodybuilder",
+                "url": "{{ url('/') }}",
+                "sameAs": [
+                    "https://www.instagram.com/tiberiutomoroga", 
+                    "https://www.facebook.com/tiberiutomoroga", 
+                    "https://www.youtube.com/@TiberiuTomoroga" 
+                ],
+                "worksFor": { "@id": "{{ url('/') }}#organization" }
+            },
+            {
+                "@type": "SportsClub",
+                "@id": "{{ url('/') }}#organization",
+                "name": "TNT Team",
+                "url": "{{ url('/') }}",
+                "logo": "{{ asset('images/ICONS/GeniusLogo.avif') }}",
+                "areaServed": "Romania"
+            },
+            {
+                "@type": "WebSite",
+                "@id": "{{ url('/') }}#website",
+                "name": "Tiberiu Tomoroga - TNT Team",
+                "url": "{{ url('/') }}",
+                "publisher": { "@id": "{{ url('/') }}#tiberiu" }
+            }
+        ]
+    }
+    </script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,6 +125,12 @@
             font-family: 'Oswald', sans-serif;
         }
     </style>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/FAVICONS/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/FAVICONS/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/FAVICONS/favicon-16x16.png">
+    <link rel="manifest" href="/images/FAVICONS/site.webmanifest">
+    <meta name="theme-color" content="#111111">
 </head>
 
 <body class="antialiased bg-[#111111] text-white overflow-x-hidden">

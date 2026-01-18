@@ -27,6 +27,9 @@ class TransformationController extends Controller
             }
         }
 
-        return view('transformations', compact('images'));
+        return view('transformations', array_merge(compact('images'), [
+            'title' => 'Rezultate Reale - Transformări Înainte și După',
+            'description' => 'Galeria transformărilor reale. Clienți care au urmat planurile TNT Team și și-au schimbat viața. Slăbire, masă musculară și performanță.'
+        ]));
     }
 }
