@@ -18,7 +18,7 @@
             <h1 class="text-6xl md:text-8xl font-heading font-bold text-white uppercase leading-none tracking-tighter mb-6 drop-shadow-lg"
                 data-aos="fade-down">
                 Push <span class="text-brand-gold">Limits.</span><br>
-                Achieve <span class="text-white border-b-4 border-brand-gold">Greatness.</span><br>
+                Achieve <span class="text-white">Greatness.</span><br>
                 <span class="text-4xl md:text-5xl block mt-4 text-gray-300">With <span class="text-brand-gold">Tiberiu
                         Tomoroga</span></span>
             </h1>
