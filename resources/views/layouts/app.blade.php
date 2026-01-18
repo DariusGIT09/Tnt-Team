@@ -39,8 +39,10 @@
                 "url": "{{ url('/') }}",
                 "sameAs": [
                     "https://www.instagram.com/tiberiutomoroga", 
-                    "https://www.facebook.com/tiberiutomoroga", 
-                    "https://www.youtube.com/@TiberiuTomoroga" 
+                    "https://www.facebook.com/tiberiu.tomoroga.1", 
+                    "https://www.youtube.com/@TiberiuTomoroga",
+                    "https://www.tiktok.com/@tomorogatiberiu",
+                    "https://www.threads.net/@tomorogatiberiu"
                 ],
                 "worksFor": { "@@id": "{{ url('/') }}#organization" }
             },
