@@ -7,7 +7,7 @@
     <div class="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div class="absolute inset-0 z-0">
             <!-- Hero Image -->
-            <img src="{{ asset('images/story/optimized/IMG_5594.jpeg') }}"
+            <img src="{{ asset('images/story/optimized/IMG_5594.webp') }}"
                 class="w-full h-full object-cover object-[center_27%] grayscale brightness-[0.4]" alt="David Stage">
         </div>
         <div class="absolute inset-0 bg-gradient-to-t from-[#111111] via-black/50 to-transparent z-10"></div>
@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="relative h-[600px] border border-white/10 rounded-xl overflow-hidden group" data-aos="fade-left">
-                <img src="{{ asset('images/story/optimized/IMG_2330.jpeg') }}"
+                <img src="{{ asset('images/story/optimized/IMG_2330.webp') }}"
                     class="w-full h-full object-cover object-[center_70%] grayscale group-hover:grayscale-0 transition-all duration-700 top"
                     alt="David Before">
                 <div
@@ -68,11 +68,11 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div class="order-2 md:order-1 grid grid-cols-2 gap-4" data-aos="fade-right">
                 <div class="h-[350px] rounded-xl overflow-hidden border border-white/5">
-                    <img src="{{ asset('images/story/optimized/IMG_4824.jpeg') }}"
+                    <img src="{{ asset('images/story/optimized/IMG_4824.webp') }}"
                         class="w-full h-full object-cover object-[center_40%] opacity-80" alt="Training Grind">
                 </div>
                 <div class="h-[400px] rounded-xl overflow-hidden border border-white/5 mt-8">
-                    <img src="{{ asset('images/story/optimized/IMG_5147.jpeg') }}"
+                    <img src="{{ asset('images/story/optimized/IMG_5147.webp') }}"
                         class="w-full h-full object-cover object-[center_80%] opacity-80 scale-[1.2]" alt="Diet Grind">
                 </div>
             </div>
@@ -118,14 +118,14 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="h-[500px] rounded-xl overflow-hidden border-2 border-brand-gold shadow-[0_0_20px_rgba(250,204,21,0.2)] group relative"
                     data-aos="zoom-in" data-aos-delay="0">
-                    <img src="{{ asset('images/story/optimized/IMG_5575.jpeg') }}"
+                    <img src="{{ asset('images/story/optimized/IMG_5575.webp') }}"
                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 scale-125"
                         alt="Stage Front">
                 </div>
                 <!-- Main Center Image -->
                 <div class="h-[500px] md:h-[600px] md:-mt-12 rounded-xl overflow-hidden border-2 border-brand-gold shadow-[0_0_40px_rgba(250,204,21,0.3)] z-10 group relative"
                     data-aos="zoom-in" data-aos-delay="100">
-                    <img src="{{ asset('images/story/optimized/IMG_5594.jpeg') }}"
+                    <img src="{{ asset('images/story/optimized/IMG_5594.webp') }}"
                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         alt="Stage Center">
                     <div
@@ -135,7 +135,7 @@
                 </div>
                 <div class="h-[500px] rounded-xl overflow-hidden border-2 border-brand-gold shadow-[0_0_20px_rgba(250,204,21,0.2)] group relative"
                     data-aos="zoom-in" data-aos-delay="200">
-                    <img src="{{ asset('images/story/optimized/IMG_5550.jpeg') }}"
+                    <img src="{{ asset('images/story/optimized/IMG_5550.webp') }}"
                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 scale-125"
                         alt="Stage Back">
                 </div>

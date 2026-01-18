@@ -7,7 +7,7 @@
             <div class="flex-shrink-0">
                 <a href="{{ route('home') }}" class="block transform transition-transform duration-300"
                     :class="{ 'scale-90': scrolled }">
-                    <img src="{{ asset('images/ICONS/TNTTeamLOGO.png') }}" alt="TNT Team Logo" class="h-10 w-auto">
+                    <img src="{{ asset('images/ICONS/TNTTeamLOGO.webp') }}" alt="TNT Team Logo" class="h-10 w-auto">
                 </a>
             </div>
 

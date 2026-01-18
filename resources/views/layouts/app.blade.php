@@ -16,7 +16,7 @@
     <meta property="og:description"
         content="{{ $description ?? 'Transformă-ți corpul cu Tiberiu Tomoroga. Planuri de antrenament și nutriție 100% personalizate. Intră în echipa TNT.' }}" />
     <meta property="og:url" content="{{ url()->current() }}" />
-    <meta property="og:image" content="{{ asset('images/Gym/optimized/IMG_3606.jpeg') }}" />
+    <meta property="og:image" content="{{ asset('images/Gym/optimized/IMG_3606.webp') }}" />
     <meta property="og:locale" content="ro_RO" />
 
     <!-- Twitter -->
@@ -24,7 +24,7 @@
     <meta name="twitter:title" content="{{ $title ?? 'Online Coaching & Fitness' }} | Tiberiu Tomoroga" />
     <meta name="twitter:description"
         content="{{ $description ?? 'Transformă-ți corpul cu Tiberiu Tomoroga. Planuri de antrenament și nutriție 100% personalizate. Intră în echipa TNT.' }}" />
-    <meta name="twitter:image" content="{{ asset('images/Gym/optimized/IMG_3606.jpeg') }}" />
+    <meta name="twitter:image" content="{{ asset('images/Gym/optimized/IMG_3606.webp') }}" />
 
     <!-- JSON-LD Schema Graph -->
     <script type="application/ld+json">

@@ -9,14 +9,14 @@
         <!-- Background Image with Dark Overlay -->
         <!-- Background Image Slider -->
         <div x-data="{ 
-                                            activeSlide: 0, 
-                                            slides: [
-                                                '/images/Gym/optimized/IMG_8704.jpeg', 
-                                                '/images/Gym/optimized/IMG_3608.jpeg', 
-                                                '/images/Gym/optimized/IMG_8718.jpeg'
-                                            ],
-                                            timer: null
-                                        }"
+                                                activeSlide: 0, 
+                                                slides: [
+                                                    '/images/Gym/optimized/IMG_8704.webp', 
+                                                    '/images/Gym/optimized/IMG_3608.webp', 
+                                                    '/images/Gym/optimized/IMG_8718.webp'
+                                                ],
+                                                timer: null
+                                            }"
             x-init="timer = setInterval(() => { activeSlide = activeSlide === slides.length - 1 ? 0 : activeSlide + 1 }, 5000)"
             class="absolute inset-0 z-0">
 
@@ -69,24 +69,24 @@
                 </div>
                 <div class="w-full md:w-1/2 order-1 md:order-2" data-aos="fade-left">
                     <div x-data="{
-                                                        activeCard: 0,
-                                                        cards: [
-                                                            '/images/Gym/optimized/IMG_0041.jpeg',
-                                                            '/images/Gym/optimized/IMG_0047.jpeg',
-                                                            '/images/Gym/optimized/IMG_0049.jpeg'
-                                                        ],
-                                                        next() {
-                                                            this.activeCard = this.activeCard === this.cards.length - 1 ? 0 : this.activeCard + 1;
-                                                        }
-                                                    }" x-init="setInterval(() => next(), 3000)"
+                                                            activeCard: 0,
+                                                            cards: [
+                                                                '/images/Gym/optimized/IMG_0041.webp',
+                                                                '/images/Gym/optimized/IMG_0047.webp',
+                                                                '/images/Gym/optimized/IMG_0049.webp'
+                                                            ],
+                                                            next() {
+                                                                this.activeCard = this.activeCard === this.cards.length - 1 ? 0 : this.activeCard + 1;
+                                                            }
+                                                        }" x-init="setInterval(() => next(), 3000)"
                         class="relative h-[450px] w-full max-w-md mx-auto group cursor-pointer" @click="next()">
 
                         <template x-for="(card, index) in cards" :key="index">
                             <div x-show="true" class="absolute inset-0 transition-all duration-700 ease-out" :class="{
-                                                                'z-30 opacity-100 translate-x-0 translate-y-0 scale-100': activeCard === index,
-                                                                'z-20 opacity-40 translate-x-4 translate-y-4 scale-95 rotate-3': activeCard !== index && (index === (activeCard + 1) % cards.length),
-                                                                'z-10 opacity-0 translate-x-8 translate-y-8 scale-90 rotate-6': activeCard !== index && (index !== (activeCard + 1) % cards.length)
-                                                             }">
+                                                                    'z-30 opacity-100 translate-x-0 translate-y-0 scale-100': activeCard === index,
+                                                                    'z-20 opacity-40 translate-x-4 translate-y-4 scale-95 rotate-3': activeCard !== index && (index === (activeCard + 1) % cards.length),
+                                                                    'z-10 opacity-0 translate-x-8 translate-y-8 scale-90 rotate-6': activeCard !== index && (index !== (activeCard + 1) % cards.length)
+                                                                 }">
                                 <div class="absolute -inset-2 bg-brand-gold/20 rounded-2xl blur-lg transition-all duration-300"
                                     :class="activeCard === index ? 'opacity-100' : 'opacity-0'"></div>
                                 <img :src="card" alt="The Beginning"
@@ -102,24 +102,24 @@
             <div class="flex flex-col md:flex-row items-center gap-12">
                 <div class="w-full md:w-1/2 order-1" data-aos="fade-right">
                     <div x-data="{
-                                                    activeCard: 0,
-                                                    cards: [
-                                                        '/images/Gym/optimized/IMG_0050.jpeg',
-                                                        '/images/Gym/optimized/IMG_0051.jpeg',
-                                                        '/images/Gym/optimized/IMG_0176.jpeg'
-                                                    ],
-                                                    next() {
-                                                        this.activeCard = this.activeCard === this.cards.length - 1 ? 0 : this.activeCard + 1;
-                                                    }
-                                                }" x-init="setInterval(() => next(), 3500)"
+                                                        activeCard: 0,
+                                                        cards: [
+                                                            '/images/Gym/optimized/IMG_0050.webp',
+                                                            '/images/Gym/optimized/IMG_0051.webp',
+                                                            '/images/Gym/optimized/IMG_0176.webp'
+                                                        ],
+                                                        next() {
+                                                            this.activeCard = this.activeCard === this.cards.length - 1 ? 0 : this.activeCard + 1;
+                                                        }
+                                                    }" x-init="setInterval(() => next(), 3500)"
                         class="relative h-[450px] w-full max-w-md mx-auto group cursor-pointer" @click="next()">
 
                         <template x-for="(card, index) in cards" :key="index">
                             <div x-show="true" class="absolute inset-0 transition-all duration-700 ease-out" :class="{
-                                                            'z-30 opacity-100 translate-x-0 translate-y-0 scale-100': activeCard === index,
-                                                            'z-20 opacity-40 -translate-x-4 translate-y-4 scale-95 -rotate-3': activeCard !== index && (index === (activeCard + 1) % cards.length),
-                                                            'z-10 opacity-0 -translate-x-8 translate-y-8 scale-90 -rotate-6': activeCard !== index && (index !== (activeCard + 1) % cards.length)
-                                                         }">
+                                                                'z-30 opacity-100 translate-x-0 translate-y-0 scale-100': activeCard === index,
+                                                                'z-20 opacity-40 -translate-x-4 translate-y-4 scale-95 -rotate-3': activeCard !== index && (index === (activeCard + 1) % cards.length),
+                                                                'z-10 opacity-0 -translate-x-8 translate-y-8 scale-90 -rotate-6': activeCard !== index && (index !== (activeCard + 1) % cards.length)
+                                                             }">
                                 <div class="absolute -inset-2 bg-brand-gold/20 rounded-2xl blur-lg transition-all duration-300"
                                     :class="activeCard === index ? 'opacity-100' : 'opacity-0'"></div>
                                 <img :src="card" alt="The Grind"
@@ -175,24 +175,24 @@
                 </div>
                 <div class="w-full md:w-1/2 order-1 md:order-2" data-aos="fade-left">
                     <div x-data="{
-                                                        activeCard: 0,
-                                                        cards: [
-                                                            '/images/Gym/optimized/IMG_8705.jpeg',
-                                                            '/images/Gym/optimized/IMG_8703.jpeg',
-                                                            '/images/Gym/optimized/IMG_8706.jpeg'
-                                                        ],
-                                                        next() {
-                                                            this.activeCard = this.activeCard === this.cards.length - 1 ? 0 : this.activeCard + 1;
-                                                        }
-                                                    }" x-init="setInterval(() => next(), 4000)"
+                                                            activeCard: 0,
+                                                            cards: [
+                                                                '/images/Gym/optimized/IMG_8705.webp',
+                                                                '/images/Gym/optimized/IMG_8703.webp',
+                                                                '/images/Gym/optimized/IMG_8706.webp'
+                                                            ],
+                                                            next() {
+                                                                this.activeCard = this.activeCard === this.cards.length - 1 ? 0 : this.activeCard + 1;
+                                                            }
+                                                        }" x-init="setInterval(() => next(), 4000)"
                         class="relative h-[450px] w-full max-w-md mx-auto group cursor-pointer" @click="next()">
 
                         <template x-for="(card, index) in cards" :key="index">
                             <div x-show="true" class="absolute inset-0 transition-all duration-700 ease-out" :class="{
-                                                                'z-30 opacity-100 translate-x-0 translate-y-0 scale-100': activeCard === index,
-                                                                'z-20 opacity-40 translate-x-4 translate-y-4 scale-95 rotate-3': activeCard !== index && (index === (activeCard + 1) % cards.length),
-                                                                'z-10 opacity-0 translate-x-8 translate-y-8 scale-90 rotate-6': activeCard !== index && (index !== (activeCard + 1) % cards.length)
-                                                             }">
+                                                                    'z-30 opacity-100 translate-x-0 translate-y-0 scale-100': activeCard === index,
+                                                                    'z-20 opacity-40 translate-x-4 translate-y-4 scale-95 rotate-3': activeCard !== index && (index === (activeCard + 1) % cards.length),
+                                                                    'z-10 opacity-0 translate-x-8 translate-y-8 scale-90 rotate-6': activeCard !== index && (index !== (activeCard + 1) % cards.length)
+                                                                 }">
                                 <div class="absolute -inset-2 bg-brand-gold/20 rounded-2xl blur-lg transition-all duration-300"
                                     :class="activeCard === index ? 'opacity-100' : 'opacity-0'"></div>
                                 <img :src="card" alt="The Stage"
@@ -218,7 +218,7 @@
                 <!-- Image 1 -->
                 <div class="relative aspect-[4/5] overflow-hidden rounded-xl border border-white/5 group" data-aos="zoom-in"
                     data-aos-delay="0">
-                    <img src="/images/Gym/optimized/IMG_8706.jpeg" alt="Gym Life 1"
+                    <img src="/images/Gym/optimized/IMG_8706.webp" alt="Gym Life 1"
                         class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 ease-in-out">
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -228,7 +228,7 @@
                 <!-- Image 2 -->
                 <div class="relative aspect-[4/5] overflow-hidden rounded-xl border border-white/5 group" data-aos="zoom-in"
                     data-aos-delay="100">
-                    <img src="/images/Gym/optimized/IMG_8711.jpeg" alt="Gym Life 2"
+                    <img src="/images/Gym/optimized/IMG_8711.webp" alt="Gym Life 2"
                         class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 ease-in-out">
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -238,7 +238,7 @@
                 <!-- Image 3 -->
                 <div class="relative aspect-[4/5] overflow-hidden rounded-xl border border-white/5 group" data-aos="zoom-in"
                     data-aos-delay="200">
-                    <img src="/images/Gym/optimized/IMG_1077.jpeg" alt="Gym Life 3"
+                    <img src="/images/Gym/optimized/IMG_1077.webp" alt="Gym Life 3"
                         class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 ease-in-out">
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -248,7 +248,7 @@
                 <!-- Image 4 -->
                 <div class="relative aspect-[4/5] overflow-hidden rounded-xl border border-white/5 group" data-aos="zoom-in"
                     data-aos-delay="0">
-                    <img src="/images/Gym/optimized/IMG_0318.jpeg" alt="Gym Life 4"
+                    <img src="/images/Gym/optimized/IMG_0318.webp" alt="Gym Life 4"
                         class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 ease-in-out">
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -258,7 +258,7 @@
                 <!-- Image 5 -->
                 <div class="relative aspect-[4/5] overflow-hidden rounded-xl border border-white/5 group" data-aos="zoom-in"
                     data-aos-delay="100">
-                    <img src="/images/Gym/optimized/IMG_9842.jpeg" alt="Gym Life 5"
+                    <img src="/images/Gym/optimized/IMG_9842.webp" alt="Gym Life 5"
                         class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 ease-in-out">
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -268,7 +268,7 @@
                 <!-- Image 6 -->
                 <div class="relative aspect-[4/5] overflow-hidden rounded-xl border border-white/5 group" data-aos="zoom-in"
                     data-aos-delay="200">
-                    <img src="/images/Gym/optimized/IMG_0045.jpeg" alt="Gym Life 6"
+                    <img src="/images/Gym/optimized/IMG_0045.webp" alt="Gym Life 6"
                         class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 ease-in-out">
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -278,7 +278,7 @@
                 <!-- Image 7 (New) -->
                 <div class="relative aspect-[4/5] overflow-hidden rounded-xl border border-white/5 group" data-aos="zoom-in"
                     data-aos-delay="0">
-                    <img src="/images/Gym/optimized/IMG_8712.jpeg" alt="Gym Life 7"
+                    <img src="/images/Gym/optimized/IMG_8712.webp" alt="Gym Life 7"
                         class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 ease-in-out">
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -288,7 +288,7 @@
                 <!-- Image 8 (New) -->
                 <div class="relative aspect-[4/5] overflow-hidden rounded-xl border border-white/5 group" data-aos="zoom-in"
                     data-aos-delay="100">
-                    <img src="/images/Gym/optimized/IMG_8713.jpeg" alt="Gym Life 8"
+                    <img src="/images/Gym/optimized/IMG_8713.webp" alt="Gym Life 8"
                         class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 ease-in-out">
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -298,7 +298,7 @@
                 <!-- Image 9 (New) -->
                 <div class="relative aspect-[4/5] overflow-hidden rounded-xl border border-white/5 group" data-aos="zoom-in"
                     data-aos-delay="200">
-                    <img src="/images/Gym/optimized/IMG_8714.jpeg" alt="Gym Life 9"
+                    <img src="/images/Gym/optimized/IMG_8714.webp" alt="Gym Life 9"
                         class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 ease-in-out">
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">

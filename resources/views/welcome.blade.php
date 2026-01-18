@@ -8,7 +8,7 @@
     <section class="relative h-screen flex items-center justify-center overflow-hidden">
         <!-- Background Image with Dark Overlay -->
         <div class="absolute inset-0 z-0">
-            <img src="/images/Gym/optimized/IMG_3606.jpeg" alt="Hero Fitness Background" fetchpriority="high"
+            <img src="/images/Gym/optimized/IMG_3606.webp" alt="Hero Fitness Background" fetchpriority="high"
                 class="w-full h-full object-cover object-[50%_25%]">
             <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-brand-dark"></div>
         </div>
@@ -19,11 +19,9 @@
                 data-aos="fade-down">
                 Push <span class="text-brand-gold">Limits.</span><br>
                 Achieve <span class="text-white">Greatness.</span><br>
-                <span class="text-4xl md:text-5xl block mt-4 text-gray-300">With <span class="text-brand-gold">Tiberiu
-                        Tomoroga</span></span>
             </h1>
             <p class="text-gray-300 text-lg md:text-2xl mb-10 font-normal max-w-2xl mx-auto">
-                Elite custom training and nutrition formulation by <span class="text-brand-gold font-bold">Tiberiu
+                Elite custom training and nutrition plans by <span class="text-brand-gold font-bold">Tiberiu
                     Tomoroga</span>.
                 Forge your legacy.
             </p>
@@ -163,7 +161,7 @@
                         class="absolute bottom-0 left-0 -ml-4 -mb-4 w-full h-full border-2 border-brand-gold/20 transform -skew-x-6 rounded-3xl z-0">
                     </div>
 
-                    <img src="/images/Gym/optimized/IMG_3607.jpeg" alt="Fitness Woman Running - Slabire si Tonifiere"
+                    <img src="/images/Gym/optimized/IMG_3607.webp" alt="Fitness Woman Running - Slabire si Tonifiere"
                         loading="lazy" decoding="async"
                         class="relative z-10 w-full rounded-2xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500 object-cover object-[50%_25%]">
                 </div>
@@ -231,7 +229,7 @@
                             data-aos="fade-up" data-aos-delay="0">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-                                <img src="{{ asset('images/ICONS/dumbelICON.png') }}" class="w-9 h-9 object-contain"
+                                <img src="{{ asset('images/ICONS/dumbelICON.webp') }}" class="w-9 h-9 object-contain"
                                     alt="Personal Training">
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Personal Training</h3>
@@ -246,7 +244,7 @@
                             data-aos="fade-up" data-aos-delay="100">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-                                <img src="{{ asset('images/ICONS/PosingICON.png') }}" class="w-9 h-9 object-contain"
+                                <img src="{{ asset('images/ICONS/PosingICON.webp') }}" class="w-9 h-9 object-contain"
                                     alt="Posing">
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Posing & Presentation</h3>
@@ -261,7 +259,7 @@
                             data-aos="fade-up" data-aos-delay="200">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-                                <img src="{{ asset('images/ICONS/Biceps icon.png') }}" class="w-9 h-9 object-contain"
+                                <img src="{{ asset('images/ICONS/Biceps icon.webp') }}" class="w-9 h-9 object-contain"
                                     alt="Strength Training">
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Strength Training</h3>
@@ -275,7 +273,7 @@
                             data-aos="fade-up" data-aos-delay="300">
                             <div
                                 class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-                                <img src="{{ asset('images/ICONS/NutritionICON.png') }}" class="w-9 h-9 object-contain"
+                                <img src="{{ asset('images/ICONS/NutritionICON.webp') }}" class="w-9 h-9 object-contain"
                                     alt="Nutrition">
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Nutrition Guidance</h3>
@@ -462,7 +460,7 @@
                 <div class="w-full lg:w-1/2 relative" data-aos="fade-right">
                     <div class="absolute -inset-4 bg-brand-gold/10 rounded-2xl transform -rotate-3 z-0"></div>
                     <div class="absolute -inset-4 bg-brand-gray/50 rounded-2xl transform rotate-3 z-0"></div>
-                    <img src="/images/Gym/optimized/Dumbbell.jpeg" alt="Coach Tiberiu Tomoroga - Antrenor Personal"
+                    <img src="/images/Gym/optimized/Dumbbell.webp" alt="Coach Tiberiu Tomoroga - Antrenor Personal"
                         loading="lazy" decoding="async"
                         class="relative z-10 w-full rounded-2xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500 border border-white/10 object-cover object-[50%_25%]">
                 </div>

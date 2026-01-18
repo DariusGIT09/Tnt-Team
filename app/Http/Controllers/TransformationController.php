@@ -22,8 +22,11 @@ class TransformationController extends Controller
         if (File::exists($directory)) {
             $files = File::files($directory);
             foreach ($files as $file) {
-                // Get relative path for the view
-                $images[] = $urlPath . $file->getFilename();
+                // Only include WebP images
+                if (strtolower($file->getExtension()) === 'webp') {
+                    // Get relative path for the view
+                    $images[] = $urlPath . $file->getFilename();
+                }
             }
         }
 

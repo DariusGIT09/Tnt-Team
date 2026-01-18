@@ -16,7 +16,7 @@
             <!-- Header with Icon -->
             <div
                 style="background-color: #000000; padding: 40px 30px; text-align: center; border-bottom: 3px solid #D4AF37;">
-                <img src="{{ $message->embed(public_path('images/ICONS/PosingICON.png')) }}" alt="TNT Team Icon"
+                <img src="{{ $message->embed(public_path('images/ICONS/PosingICON.webp')) }}" alt="TNT Team Icon"
                     style="width: 100px; height: auto; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212,175,55,0.3));">
                 <h1
                     style="color: #D4AF37; margin: 0; font-size: 28px; text-transform: uppercase; letter-spacing: 3px; font-weight: 700;">

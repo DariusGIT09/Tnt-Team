@@ -10,7 +10,7 @@
             <!-- Column 1: Brand -->
             <div class="space-y-6">
                 <a href="{{ route('home') }}" class="block">
-                    <img src="{{ asset('images/ICONS/TNTTeamLOGO.png') }}" alt="TNT Team Logo" class="h-16 w-auto">
+                    <img src="{{ asset('images/ICONS/TNTTeamLOGO.webp') }}" alt="TNT Team Logo" class="h-16 w-auto">
                 </a>
                 <p class="text-gray-400 text-sm leading-relaxed">
                     "Built, not born." We forge elite physiques and unshakeable mindsets through scientific training and
