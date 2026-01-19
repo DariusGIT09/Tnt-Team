@@ -182,7 +182,7 @@
                         Premium</div>
                     <h3 class="text-2xl font-heading font-bold text-brand-gold uppercase mb-2">1 on 1</h3>
                     <div class="text-sm text-white uppercase tracking-wider mb-4 font-bold">VIP Coaching</div>
-                    <div class="text-4xl font-bold text-white mb-6">1159 <span
+                    <div class="text-4xl font-bold text-white mb-6">1150 <span
                             class="text-lg text-gray-500 font-normal">LEI</span></div>
 
                     <ul class="space-y-3 mb-8 text-white font-medium text-sm flex-grow">
@@ -260,7 +260,7 @@
                                 stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                 </path>
-                            </svg> Tailored for Metabolism</li>
+                            </svg> Tailored to Goals</li>
                     </ul>
                     <a href="{{ route('contact') }}"
                         class="block w-full text-center bg-white/10 hover:bg-white/20 text-white font-bold py-3 rounded-lg transition-all uppercase tracking-wider">Select
@@ -280,7 +280,7 @@
                                 stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                                 </path>
-                            </svg> Compulsory Poses</li>
+                            </svg> Mandatory Poses</li>
                         <li class="flex items-start"><svg class="w-5 h-5 text-brand-gold mr-2 flex-shrink-0" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">

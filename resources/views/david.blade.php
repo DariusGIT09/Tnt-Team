@@ -48,15 +48,11 @@
                         <span class="block text-3xl font-bold text-white">110kg</span>
                         <span class="text-sm text-gray-500 uppercase tracking-wider">Starting Weight</span>
                     </div>
-                    <div>
-                        <span class="block text-3xl font-bold text-white">22%</span>
-                        <span class="text-sm text-gray-500 uppercase tracking-wider">Body Fat</span>
-                    </div>
                 </div>
             </div>
             <div class="relative h-[600px] border border-white/10 rounded-xl overflow-hidden group" data-aos="fade-left">
-                <img src="{{ asset('images/story/optimized/IMG_2330.webp') }}"
-                    class="w-full h-full object-cover object-[center_70%] grayscale group-hover:grayscale-0 transition-all duration-700 top"
+                <img src="{{ asset('images/story/optimized/Day1David.webp') }}"
+                    class="w-full h-full object-cover object-[center_20%] grayscale group-hover:grayscale-0 transition-all duration-700 top"
                     alt="David Before">
                 <div
                     class="absolute bottom-4 left-4 bg-black/80 px-4 py-2 text-white font-bold uppercase tracking-wider text-sm">
@@ -68,7 +64,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div class="order-2 md:order-1 grid grid-cols-2 gap-4" data-aos="fade-right">
                 <div class="h-[350px] rounded-xl overflow-hidden border border-white/5">
-                    <img src="{{ asset('images/story/optimized/IMG_4824.webp') }}"
+                    <img src="{{ asset('images/story/optimized/IMG_5133.webp') }}"
                         class="w-full h-full object-cover object-[center_40%] opacity-80" alt="Training Grind">
                 </div>
                 <div class="h-[400px] rounded-xl overflow-hidden border border-white/5 mt-8">
@@ -116,10 +112,10 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="h-[500px] rounded-xl overflow-hidden border-2 border-brand-gold shadow-[0_0_20px_rgba(250,204,21,0.2)] group relative"
+                <div class="h-[450px] rounded-xl overflow-hidden border-2 border-brand-gold shadow-[0_0_20px_rgba(250,204,21,0.2)] group relative"
                     data-aos="zoom-in" data-aos-delay="0">
                     <img src="{{ asset('images/story/optimized/IMG_5575.webp') }}"
-                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 scale-125"
+                        class="w-full h-full object-cover transition-transform rotate-90 duration-700 group-hover:scale-105 scale-125"
                         alt="Stage Front">
                 </div>
                 <!-- Main Center Image -->
@@ -133,10 +129,10 @@
                         <span class="text-white font-bold text-xl uppercase"></span>
                     </div>
                 </div>
-                <div class="h-[500px] rounded-xl overflow-hidden border-2 border-brand-gold shadow-[0_0_20px_rgba(250,204,21,0.2)] group relative"
+                <div class="h-[450px] rounded-xl overflow-hidden border-2 border-brand-gold shadow-[0_0_20px_rgba(250,204,21,0.2)] group relative"
                     data-aos="zoom-in" data-aos-delay="200">
                     <img src="{{ asset('images/story/optimized/IMG_5550.webp') }}"
-                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 scale-125"
+                        class="w-full h-full object-cover transition-transform rotate-90 duration-700 group-hover:scale-105 scale-125"
                         alt="Stage Back">
                 </div>
             </div>

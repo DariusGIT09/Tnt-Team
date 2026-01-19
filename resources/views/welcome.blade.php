@@ -234,7 +234,7 @@
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Personal Training</h3>
                             <p class="text-gray-400 text-sm leading-relaxed">
-                                Work one-on-one with expert coaches who design custom programs to help you reach your
+                                Work one-on-one with expert coach who design custom programs to help you reach your
                                 fitness goals.
                             </p>
                         </div>
@@ -264,7 +264,8 @@
                             </div>
                             <h3 class="text-2xl font-heading font-bold text-white mb-4">Strength Training</h3>
                             <p class="text-gray-400 text-sm leading-relaxed">
-                                Utilize advanced equipment and techniques to build muscle, increase power, and achieve.
+                                Utilize advanced equipment and techniques to build muscle, increase power, and redefine your
+                                limits.
                             </p>
                         </div>
 
@@ -346,8 +347,8 @@
                         </div>
                         <h3 class="text-2xl font-heading font-bold text-white mb-3 uppercase">Nutrition Plans</h3>
                         <p class="text-gray-400 mb-6 leading-relaxed">
-                            Stop guessing. Get a calculated macronutrient strategy designed to fuel your workouts and burn
-                            fat efficiently.
+                            Stop guessing. Get a calculated macronutrient strategy designed to fuel your workouts
+                            efficiently.
                         </p>
                         <a href="{{ route('protocol') }}"
                             class="inline-flex items-center text-brand-gold font-bold uppercase tracking-wide group-hover:translate-x-2 transition-transform">
